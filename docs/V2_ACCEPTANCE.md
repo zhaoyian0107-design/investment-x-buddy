@@ -74,10 +74,10 @@ node scripts/verify-bundle.mjs outputs/v2-sample-bundle.json
 - 默认构造数据，所有公司数值与材料并非真实财报；协议测试不代表真实账号线上成功。
 - 最多一轮、两项现金支撑核查。三公司范围可能因为第三家未覆盖保持部分成果；扩大轮次／工具仍需后续能力开发。
 - 无真实模型、扶摇 Key 或 iFinD 网关，不验收真实数据真实性、权限与费用；无原文配置时明确降级。
-- 当前无 Docker，本轮未验证 Compose 容器启动；配置已交付，实际 MySQL 测试为8.0.46，Compose 示例为8.4。
+- 本机未安装 Docker，未验证本机 Compose 编排；配置已交付，本地 MySQL 测试为8.0.46，Compose 示例为8.4。追加的 Railway 云端 Docker 构建及 MySQL 9.7.2 实际运行已通过公网验收。
 - 本地单服务、单 Worker；身份为签名 Cookie，不是正式账号体系、分布式队列或交易产品。
 - JavaScript number 不等同会计高精度 Decimal；保留原始数值、精确序列化及计算容差。
-- 公网 URL 与远端 Git 仓库未创建，本地 URL 不称公网可访问地址。
+- 公网 URL 与公开 GitHub 仓库已在本地六项验收之后创建并通过实际验收，见 [PUBLIC_DEPLOYMENT.md](PUBLIC_DEPLOYMENT.md)。`outputs/v2-acceptance.json` 是02:52 UTC时本地验收快照，其中公网尚未创建的历史状态由后续 public-*.json 记录补齐。
 
 ## 原版保留
 

@@ -1,0 +1,50 @@
+services:
+  mysql:
+    image: mysql:8.4
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: investment_buddy
+      MYSQL_USER: buddy
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:?Set MYSQL_PASSWORD in .env}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?Set MYSQL_ROOT_PASSWORD in .env}
+    command: ['--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci']
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test:
+        ['CMD-SHELL', "MYSQL_PWD=$$MYSQL_PASSWORD mysql -u buddy -e 'SELECT 1' investment_buddy"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+  app:
+    build: .
+    restart: unless-stopped
+    ports:
+      - '${APP_BIND:-127.0.0.1}:${PORT:-3000}:3000'
+    environment:
+      HOST: 0.0.0.0
+      PORT: 3000
+      DATABASE_URL: mysql://buddy:${MYSQL_PASSWORD:?Set MYSQL_PASSWORD}@mysql:3306/investment_buddy
+      SESSION_SECRET: ${SESSION_SECRET:?Set SESSION_SECRET}
+      APP_ACCESS_TOKEN: ${APP_ACCESS_TOKEN:-}
+      COOKIE_SECURE: ${COOKIE_SECURE:-false}
+      DATA_MODE: ${DATA_MODE:-demo}
+      DATA_PROVIDER: ${DATA_PROVIDER:-fuyao}
+      FUYAO_API_KEY: ${FUYAO_API_KEY:-}
+      MODEL_MODE: ${MODEL_MODE:-demo}
+      MODEL_API_STYLE: ${MODEL_API_STYLE:-responses}
+      MODEL_BASE_URL: ${MODEL_BASE_URL:-https://api.openai.com/v1}
+      MODEL_NAME: ${MODEL_NAME:-}
+      MODEL_API_KEY: ${MODEL_API_KEY:-}
+      MODEL_INPUT_USD_PER_MILLION: ${MODEL_INPUT_USD_PER_MILLION:-}
+      MODEL_OUTPUT_USD_PER_MILLION: ${MODEL_OUTPUT_USD_PER_MILLION:-}
+      DATA_GATEWAY_URL: ${DATA_GATEWAY_URL:-}
+      DATA_GATEWAY_TOKEN: ${DATA_GATEWAY_TOKEN:-}
+      DATA_ALLOWED_SOURCE_HOSTS: ${DATA_ALLOWED_SOURCE_HOSTS:-}
+      ENABLE_FAULT_LAB: ${ENABLE_FAULT_LAB:-true}
+      TASK_DELAY_MS: ${TASK_DELAY_MS:-650}
+    depends_on:
+      mysql:
+        condition: service_healthy
+volumes:
+  mysql_data:

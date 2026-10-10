@@ -13,6 +13,9 @@ $taskArchive = Join-Path $taskOutput 'investment-x-buddy-v2.zip'
 Compress-Archive -LiteralPath (Get-ChildItem -LiteralPath $taskStage -Force | Select-Object -ExpandProperty FullName) -DestinationPath $taskArchive -Force
 $taskSize = (Get-Item -LiteralPath $taskArchive).Length
 if ($taskSize -gt 30MB) { throw "Submission archive exceeds 30MB: $taskSize bytes" }
-$taskDigest=(Get-FileHash -LiteralPath $taskArchive -Algorithm SHA256).Hash.ToLower()
+$taskHashStream=[System.IO.File]::OpenRead($taskArchive)
+$taskHasher=[System.Security.Cryptography.SHA256]::Create()
+try { $taskDigest=[System.BitConverter]::ToString($taskHasher.ComputeHash($taskHashStream)).Replace('-','').ToLowerInvariant() }
+finally { $taskHasher.Dispose(); $taskHashStream.Dispose() }
 Set-Content -LiteralPath ($taskArchive + '.sha256.txt') -Value ($taskDigest + '  investment-x-buddy-v2.zip') -Encoding ASCII
 Write-Output "Created $taskArchive ($([Math]::Round($taskSize/1MB,2)) MB). Secrets, dependencies and runtime databases excluded."

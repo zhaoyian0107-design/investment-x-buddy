@@ -191,7 +191,7 @@ MySQL 不在默认路径时传入 `-MySqlBin '你的MySQL bin目录'`。测试�
 - 单个 Worker 串行调度，适合个人工作台；高并发需要拆分队列和分片租约。
 - 没有正式账户注册、跨设备账号同步、向量检索或付费订阅。
 - Cookie 清除后进入新空间；需要长期多设备使用时增加认证账号和恢复入口。
-- 真实凭据、iFinD 原文适配、公网 URL 和远端仓库地址仍需部署阶段补齐。
+- 真实凭据与 iFinD 原文适配仍需实际接入和验证；公网 URL 与公开仓库已交付。
 
 ## 8. 交付与提交
 
@@ -203,4 +203,4 @@ npm.cmd run package:submission
 
 生成 `outputs/investment-x-buddy-v2.zip`，自动排除密钥、依赖和运行数据库，检查小于 30MB。压缩包包含完整源码、构建产物、README、六项验收报告、设计、AI 使用记录、测试说明、MySQL／Compose 配置及本轮截图与视频。
 
-交付清单见 [V2_DELIVERY.md](outputs/V2_DELIVERY.md)。当前是可运行本地项目；公网 URL、远端源码仓库和真实账号验收仍需部署阶段补齐。
+交付清单见 [V2_DELIVERY.md](outputs/V2_DELIVERY.md) 和 [公网交付说明](outputs/PUBLIC_DELIVERY.md)。公网产品、公开源码仓库及验收记录已交付；真实供应商账号验收仍需有效凭据。

@@ -43,6 +43,12 @@
 
 为了演示预算停止，可在确认前将工具尝试设为1。停止后申请扩展，未批准时调用数不变化。
 
-## 未完成的线上验收
+## 公网验收
 
-真实供应商账号权限、真实模型 usage／费用、iFinD MCP 原文工具、Docker 容器启动和公网部署未在当前环境验证。不能以模拟协议测试代替它们。
+2026-10-10 在真实 Railway HTTPS 域名完成公网主链路、独立会话隔离、证据导出与复算、数据过期降级、预算审批边界和实际云端重启恢复。云端使用 MySQL 9.7.2 与 Node.js 24，Dockerfile 实际构建成功。暂停研究的三个已提交任务在重启后复用，尝试次数未增加；完成研究、证据和长期记忆保持可读取。
+
+可复现脚本：`npm run test:public`、`npm run test:public:resilience`；设置 PUBLIC_BASE_URL 为实际 HTTPS 域名。两个脚本初始阶段执行后，在平台重启并等待健康，再分别传 `-- --resume` 验收。脚本创建验收项目；本地 work 中的会话文件不得上传。实际结果见 `outputs/public-smoke-result.json`、`outputs/public-restart-result.json`、`outputs/public-resilience-result.json`。
+
+## 未完成的验收
+
+真实供应商账号权限、真实模型 usage／费用、iFinD MCP 原文工具和本机 Docker Compose 编排仍未验证。不能以构造演示、模拟协议或云端容器运行代替它们。

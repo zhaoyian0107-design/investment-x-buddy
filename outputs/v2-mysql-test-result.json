@@ -1,0 +1,28 @@
+{
+  "testedAt": "2026-10-10T02:49:47.256Z",
+  "database": "MySQL 8.0 isolated local instance",
+  "persistence": true,
+  "optimisticConcurrency": true,
+  "ownerIsolation": true,
+  "workerLease": true,
+  "unicodeMemory": true,
+  "atomicBudgetReservation": true,
+  "singleDispatch": true,
+  "durableInterruptedUsage": true,
+  "immutableEvidence": true,
+  "legacyMigration": true,
+  "standaloneBundle": {
+    "valid": true,
+    "calculations": 8,
+    "evidenceRecords": 26,
+    "legacyRecords": 0,
+    "legacyCalculationsSkipped": 0,
+    "errors": [],
+    "scope": "校验数据完整性、引用与算式；不证明原始材料真实性或金融解释正确"
+  },
+  "countercheckRevision": true,
+  "completionCriteria": "met",
+  "httpMainChain": "completed",
+  "evidenceCount": 26,
+  "checkpointCount": 10
+}

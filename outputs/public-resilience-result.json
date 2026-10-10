@@ -1,0 +1,44 @@
+{
+  "testedAt": "2026-10-10T11:47:53.502Z",
+  "base": "https://investment-x-buddy-production-525b.up.railway.app",
+  "checks": [
+    "stale data yields partial research with explicit gaps",
+    "budget exhaustion stops at approved limit",
+    "pending or rejected expansion cannot execute",
+    "approved expansion resumes original scope",
+    "interrupt saves completed checkpoints",
+    "interrupted project survives cloud restart",
+    "resume reuses committed tasks",
+    "recovered evidence bundle verifies"
+  ],
+  "stale": {
+    "id": "a7fb3e2d-d6bb-4998-b0ac-1ff1330eee70",
+    "status": "partial",
+    "gaps": 3
+  },
+  "budget": {
+    "id": "fc3cc55d-b396-4dde-ba2e-7d1ddd632b47",
+    "status": "completed",
+    "initialLimit": 1
+  },
+  "interruption": {
+    "id": "8137e2b7-8efd-4334-99fb-40d2e3dfc59a",
+    "status": "paused",
+    "committedTasks": 3
+  },
+  "afterRestart": {
+    "testedAt": "2026-10-10T11:49:09.121Z",
+    "projectId": "8137e2b7-8efd-4334-99fb-40d2e3dfc59a",
+    "status": "completed",
+    "reusedTasks": 3,
+    "verification": {
+      "valid": true,
+      "calculations": 8,
+      "evidenceRecords": 26,
+      "legacyRecords": 0,
+      "legacyCalculationsSkipped": 0,
+      "errors": [],
+      "scope": "校验数据完整性、引用与算式；不证明原始材料真实性或金融解释正确"
+    }
+  }
+}

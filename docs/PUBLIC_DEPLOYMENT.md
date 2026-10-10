@@ -1,6 +1,14 @@
 # 公网部署与笔试交付
 
-状态：Railway 应用和 MySQL 服务已创建，公开源码仓库为 [investment-x-buddy](https://github.com/zhaoyian0107-design/investment-x-buddy)。公网发布和验收进行中，尚未取得产品 URL。只有实际上线和验收后，才能将这些项标记为完成。
+状态：2026-10-10 已实际部署并完成公网验收。
+
+- 产品：<https://investment-x-buddy-production-525b.up.railway.app/>
+- 源码：<https://github.com/zhaoyian0107-design/investment-x-buddy>
+- 访问：无需注册或口令。签名 Cookie 区分独立研究空间；清除 Cookie 后进入新空间，尚无跨设备账号同步。
+- 运行：Railway 云端 Docker 容器，Node.js 24，MySQL 9.7.2；单应用副本，关闭应用休眠。候选人的电脑无需保持开机。
+- 模式：DATA_MODE=demo、MODEL_MODE=demo。数字、材料和模型解释为明确标注的构造演示，不宣称真实供应商已接通。
+- 数据库：内网连接；buddy_app 仅有 railway 库的 SELECT、INSERT、UPDATE、DELETE、CREATE、INDEX 权限，无全局管理权限。数据库未创建公网 TCP Proxy。
+- 密钥：数据库连接串和稳定 SESSION_SECRET 存放于平台变量，未写入源码。临时部署 SSH 公钥已撤销。
 
 ## 当前推荐路径
 
@@ -12,7 +20,7 @@
 
 1. 将源代码发布到用户的 GitHub 仓库，排除 .env、data、work、node_modules 及用户数据。给评审提供可访问的仓库 URL 和 README。
 2. 创建 Railway 项目，添加 MySQL 服务，并确认持久卷。通过 MySQL 内网连接；不要为数据库开启公网端口。
-3. 新建应用服务，连接源码仓库。根目录的 railway.json 使用 Dockerfile 构建、/api/health 检查和故障重启，应用只运行一个副本。
+3. 新建应用服务，连接源码仓库或通过官方 CLI 上传经过排除私密文件的源码。根目录的 railway.json 使用 Dockerfile 构建、/api/health 检查和故障重启，应用只运行一个副本。
 4. 在平台的环境变量界面配置：
 
    | 变量 | 配置 |
@@ -39,5 +47,21 @@
 - 在评审使用期内保留服务和数据库；关注平台额度到期与资源费用，不能将短期试用称为永久免费部署。
 
 最终交付包括真实产品 URL、源码仓库 URL、访问说明、演示视频及公网验收记录。本地47项测试结果继续保留，不能用它代替公网验收。
+
+## 实际验收记录
+
+`outputs/public-smoke-result.json`：HTTPS 首页及静态资源、MySQL 健康接口、审批拒绝后不执行、确认后完成研究、完成标准及检查点、反证和判断修订、项目和证据会话隔离、导出与独立复算、记忆隔离。26 条证据、8 条算式通过。
+
+`outputs/public-restart-result.json`：官方 CLI 实际重启应用后，同一签名会话可读取原项目、证据及记忆，证据包复算仍通过。
+
+`outputs/public-resilience-result.json`：过期数据产生部分成果和3项缺口；1次工具预算耗尽后停止，扩展未批准或被拒绝时不能继续，批准后完成；中断项目保存3个已完成任务，真实云端重启后继续，三个任务的尝试次数未增加，恢复的证据包通过复算。
+
+验收脚本在 scripts/public-smoke.ts 与 scripts/public-resilience.mjs 中；重启前会话保存在被 Git 排除的 work 目录，不能公开该文件。截图见交付包 outputs/public-*.jpg。
+
+## 维护
+
+Railway 当前 CLI 提示 railway.json 将于2026-12-01停止受支持；本次配置已实际生效。长期维护应按平台官方迁移说明转到 Infrastructure as Code；不要把这项后续工作记作已完成。
+
+试用额度和到期时间以用户工作区实际页面为准。没有启用付费升级、购买域名或续费。评审结束前保持应用和 MySQL 在线。
 
 参考：[MySQL](https://docs.railway.com/databases/mysql)、[公网域名与HTTPS](https://docs.railway.com/networking/public-networking)、[配置文件](https://docs.railway.com/config-as-code/reference)、[试用与限制](https://docs.railway.com/pricing/free-trial)、[费用](https://docs.railway.com/pricing/plans)。

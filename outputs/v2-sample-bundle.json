@@ -1,0 +1,1804 @@
+{
+  "format": "x-buddy-evidence-v2",
+  "createdAt": "2026-10-10T02:48:44.560Z",
+  "project": {
+    "id": "2e60c94f-1fea-4b83-a1d1-52a4d7cce3ef",
+    "title": "美的集团 × 格力电器 · 经营质量",
+    "planVersion": 1,
+    "asOf": "2025-04-30",
+    "dataMode": "demo"
+  },
+  "report": {
+    "title": "美的集团 × 格力电器 · 经营质量",
+    "summary": "此成果基于明确标注的构造样本，用于验证研究流程。事实可回到字段，解释保留边界，不代表真实公司情况。",
+    "claims": [
+      {
+        "id": "fact-e2-0b9f71e8be9f50a14f57c0e4589c862c2c4110ce96ab268f85d573d36a945a98",
+        "kind": "fact",
+        "text": "美的集团 2023年归母净利润为310.00亿元。",
+        "supportIds": [
+          "e2-0b9f71e8be9f50a14f57c0e4589c862c2c4110ce96ab268f85d573d36a945a98"
+        ],
+        "counterIds": [],
+        "limitations": [],
+        "confidence": "supported",
+        "verified": true,
+        "revision": 1,
+        "validation": {
+          "references": "pass",
+          "numeric": "pass",
+          "semantic": "deterministic"
+        }
+      },
+      {
+        "id": "fact-e2-11e36baa5891fa0ec91b97ef6558779f36dc209355a1a73786746bb9ee8c139a",
+        "kind": "fact",
+        "text": "美的集团 2023年经营现金流为420.00亿元。",
+        "supportIds": [
+          "e2-11e36baa5891fa0ec91b97ef6558779f36dc209355a1a73786746bb9ee8c139a"
+        ],
+        "counterIds": [],
+        "limitations": [],
+        "confidence": "supported",
+        "verified": true,
+        "revision": 1,
+        "validation": {
+          "references": "pass",
+          "numeric": "pass",
+          "semantic": "deterministic"
+        }
+      },
+      {
+        "id": "fact-e2-7d33e312da00c32ca186cdfbb3763f5359d73d1ef82b716d938fe0698bd3d1e4",
+        "kind": "fact",
+        "text": "美的集团 2024年归母净利润为345.00亿元。",
+        "supportIds": [
+          "e2-7d33e312da00c32ca186cdfbb3763f5359d73d1ef82b716d938fe0698bd3d1e4"
+        ],
+        "counterIds": [],
+        "limitations": [],
+        "confidence": "supported",
+        "verified": true,
+        "revision": 1,
+        "validation": {
+          "references": "pass",
+          "numeric": "pass",
+          "semantic": "deterministic"
+        }
+      },
+      {
+        "id": "fact-e2-e663e7a29d4658112bd1608e9bdba6c1a01a00c6d27343b8da655d80d2e89c69",
+        "kind": "fact",
+        "text": "美的集团 2024年经营现金流为510.00亿元。",
+        "supportIds": [
+          "e2-e663e7a29d4658112bd1608e9bdba6c1a01a00c6d27343b8da655d80d2e89c69"
+        ],
+        "counterIds": [],
+        "limitations": [],
+        "confidence": "supported",
+        "verified": true,
+        "revision": 1,
+        "validation": {
+          "references": "pass",
+          "numeric": "pass",
+          "semantic": "deterministic"
+        }
+      },
+      {
+        "id": "fact-e2-119fd07c5bcd7048851a6fb56abc00dd066a346580e523a5fb82e21e501007d9",
+        "kind": "fact",
+        "text": "格力电器 2023年归母净利润为280.00亿元。",
+        "supportIds": [
+          "e2-119fd07c5bcd7048851a6fb56abc00dd066a346580e523a5fb82e21e501007d9"
+        ],
+        "counterIds": [],
+        "limitations": [],
+        "confidence": "supported",
+        "verified": true,
+        "revision": 1,
+        "validation": {
+          "references": "pass",
+          "numeric": "pass",
+          "semantic": "deterministic"
+        }
+      },
+      {
+        "id": "fact-e2-753e41d1073cad15fff449d19522713b975ec5cbe71f6456addb21caf1a2ee69",
+        "kind": "fact",
+        "text": "格力电器 2023年经营现金流为450.00亿元。",
+        "supportIds": [
+          "e2-753e41d1073cad15fff449d19522713b975ec5cbe71f6456addb21caf1a2ee69"
+        ],
+        "counterIds": [],
+        "limitations": [],
+        "confidence": "supported",
+        "verified": true,
+        "revision": 1,
+        "validation": {
+          "references": "pass",
+          "numeric": "pass",
+          "semantic": "deterministic"
+        }
+      },
+      {
+        "id": "fact-e2-c8a9f1ce5e432e975c1d53f69719d5cfaa18d3750f7c1bd94e02f0bcae4861d7",
+        "kind": "fact",
+        "text": "格力电器 2024年归母净利润为298.00亿元。",
+        "supportIds": [
+          "e2-c8a9f1ce5e432e975c1d53f69719d5cfaa18d3750f7c1bd94e02f0bcae4861d7"
+        ],
+        "counterIds": [],
+        "limitations": [],
+        "confidence": "supported",
+        "verified": true,
+        "revision": 1,
+        "validation": {
+          "references": "pass",
+          "numeric": "pass",
+          "semantic": "deterministic"
+        }
+      },
+      {
+        "id": "fact-e2-031087c2dd44f4e709f0efc21e47f61c763e4f3e236d0d6c98668ec27afcc978",
+        "kind": "fact",
+        "text": "格力电器 2024年经营现金流为380.00亿元。",
+        "supportIds": [
+          "e2-031087c2dd44f4e709f0efc21e47f61c763e4f3e236d0d6c98668ec27afcc978"
+        ],
+        "counterIds": [],
+        "limitations": [],
+        "confidence": "supported",
+        "verified": true,
+        "revision": 1,
+        "validation": {
+          "references": "pass",
+          "numeric": "pass",
+          "semantic": "deterministic"
+        }
+      },
+      {
+        "id": "fact-e2-9381bf09420643864e7be939ed470555ebda3a002b9d285e13341da047dc31ed",
+        "kind": "fact",
+        "text": "美的集团 2023年现金利润比为1.35倍。",
+        "supportIds": [
+          "e2-9381bf09420643864e7be939ed470555ebda3a002b9d285e13341da047dc31ed"
+        ],
+        "counterIds": [],
+        "limitations": [
+          "比值受营运资本、季节性与业务结构影响，不能直接作为公司排名"
+        ],
+        "confidence": "supported",
+        "verified": true,
+        "revision": 1,
+        "validation": {
+          "references": "pass",
+          "numeric": "pass",
+          "semantic": "deterministic"
+        }
+      },
+      {
+        "id": "fact-e2-196e385e09d494991e28b32c82a187aaca4ed4aea6a45e0721f14504a2342cd4",
+        "kind": "fact",
+        "text": "美的集团 2024年现金利润比为1.48倍。",
+        "supportIds": [
+          "e2-196e385e09d494991e28b32c82a187aaca4ed4aea6a45e0721f14504a2342cd4"
+        ],
+        "counterIds": [],
+        "limitations": [
+          "比值受营运资本、季节性与业务结构影响，不能直接作为公司排名"
+        ],
+        "confidence": "supported",
+        "verified": true,
+        "revision": 1,
+        "validation": {
+          "references": "pass",
+          "numeric": "pass",
+          "semantic": "deterministic"
+        }
+      },
+      {
+        "id": "fact-e2-d24a6075f43fc6c62898c36e72b0fe917eabd7bbf582eec97d2b034fb2908305",
+        "kind": "fact",
+        "text": "格力电器 2023年现金利润比为1.61倍。",
+        "supportIds": [
+          "e2-d24a6075f43fc6c62898c36e72b0fe917eabd7bbf582eec97d2b034fb2908305"
+        ],
+        "counterIds": [],
+        "limitations": [
+          "比值受营运资本、季节性与业务结构影响，不能直接作为公司排名"
+        ],
+        "confidence": "supported",
+        "verified": true,
+        "revision": 1,
+        "validation": {
+          "references": "pass",
+          "numeric": "pass",
+          "semantic": "deterministic"
+        }
+      },
+      {
+        "id": "fact-e2-831d066be6b38540a8bf8903987a37562a48eeec2ff23fcf500cdb2f5de47579",
+        "kind": "fact",
+        "text": "格力电器 2024年现金利润比为1.28倍。",
+        "supportIds": [
+          "e2-831d066be6b38540a8bf8903987a37562a48eeec2ff23fcf500cdb2f5de47579"
+        ],
+        "counterIds": [],
+        "limitations": [
+          "比值受营运资本、季节性与业务结构影响，不能直接作为公司排名"
+        ],
+        "confidence": "supported",
+        "verified": true,
+        "revision": 1,
+        "validation": {
+          "references": "pass",
+          "numeric": "pass",
+          "semantic": "deterministic"
+        }
+      },
+      {
+        "id": "hypothesis-cash-v1",
+        "core": true,
+        "kind": "inference",
+        "text": "当前证据支持现金支撑的局部观察；材料中的时点与可比性限制使持续改善的判断仍需核查。",
+        "supportIds": [
+          "e2-196e385e09d494991e28b32c82a187aaca4ed4aea6a45e0721f14504a2342cd4",
+          "e2-831d066be6b38540a8bf8903987a37562a48eeec2ff23fcf500cdb2f5de47579"
+        ],
+        "counterIds": [
+          "e2-a1cedacf1ca421f44541baaf94181dc9fef6ff10278256c4cb7b0f148c6d723f",
+          "e2-dd812c526a149e93b2cce156730b3feb4ea1ac0e34c6f55c542c6a4edf4bb2d4"
+        ],
+        "limitations": [
+          "业务结构与营运资本变化尚需核查",
+          "年末现金流不能代表每个季度"
+        ],
+        "confidence": "limited",
+        "verified": false,
+        "revision": 2,
+        "validation": {
+          "references": "pass",
+          "numeric": "not_applicable",
+          "semantic": "needs_review"
+        }
+      }
+    ],
+    "counterEvidence": [
+      "适用范围限制：【构造样本，非实际财报】本期经营现金流变化包含营运资本回款时点的影响，不能仅凭年度现金利润比认定经营质量持续改善。（e2-a1cedacf1ca421f44541baaf94181dc9fef6ff10278256c4cb7b0f148c6d723f；正文字符 0–57）",
+      "适用范围限制：【构造样本，非实际财报】本期经营现金流变化包含营运资本回款时点的影响，不能仅凭年度现金利润比认定经营质量持续改善。（e2-dd812c526a149e93b2cce156730b3feb4ea1ac0e34c6f55c542c6a4edf4bb2d4；正文字符 0–57）"
+    ],
+    "gaps": [],
+    "nextQuestions": [
+      "现金流变化是否主要来自应收账款、存货或应付款变化？",
+      "分季度数据是否支持年度观察，是否存在明显季节性？",
+      "两家公司的业务结构差异对可比性影响有多大？"
+    ],
+    "createdAt": "2026-10-10T02:48:41.979Z",
+    "mode": "demo",
+    "modelMode": "demo",
+    "validation": {
+      "referencesValid": "pass",
+      "calculationChecked": "pass",
+      "complianceChecked": "pass",
+      "semanticSupport": "needs_review",
+      "removedClaims": 0
+    }
+  },
+  "completion": {
+    "executionFinished": true,
+    "outcome": "met",
+    "criteria": [
+      {
+        "id": "criterion-0",
+        "label": "所选指标的必需字段齐全",
+        "required": true,
+        "kind": "fields_complete",
+        "status": "met",
+        "reason": "所选指标的必需字段齐全"
+      },
+      {
+        "id": "criterion-1",
+        "label": "核心指标可回到原始字段与计算依赖",
+        "required": true,
+        "kind": "calculation_lineage",
+        "status": "met",
+        "reason": "已有计算的输入依赖可追溯"
+      },
+      {
+        "id": "criterion-2",
+        "label": "每条判断标明事实、归纳或假设",
+        "required": true,
+        "kind": "claims_typed",
+        "status": "met",
+        "reason": "事实、归纳与假设已分类"
+      },
+      {
+        "id": "criterion-3",
+        "label": "记录反证、数据缺口和继续研究问题",
+        "required": true,
+        "kind": "counterchecks",
+        "status": "met",
+        "reason": "已记录核心判断的核查范围与材料关系；不代表覆盖所有反证"
+      }
+    ],
+    "evaluatedAt": "2026-10-10T02:48:44.402Z"
+  },
+  "audit": {
+    "plan": {
+      "title": "美的集团 × 格力电器 · 经营质量",
+      "entities": [
+        {
+          "code": "000333.SZ",
+          "name": "美的集团"
+        },
+        {
+          "code": "000651.SZ",
+          "name": "格力电器"
+        }
+      ],
+      "years": [
+        2023,
+        2024
+      ],
+      "metrics": [
+        "netProfit",
+        "operatingCashflow",
+        "cashConversion"
+      ],
+      "asOf": "2025-04-30",
+      "includeFilings": true,
+      "rationale": "先对齐年度报告期和人民币元口径，再计算利润的现金支撑；用已公开材料检查可比性与替代解释。",
+      "completionCriteria": [
+        "所选指标的必需字段齐全",
+        "核心指标可回到原始字段与计算依赖",
+        "每条判断标明事实、归纳或假设",
+        "记录反证、数据缺口和继续研究问题"
+      ],
+      "version": 1,
+      "question": "比较美的集团与格力电器最近两个可比年度报告期：利润有多少经营现金流支撑？找出变化、反证与值得继续核查的问题。",
+      "criteria": [
+        {
+          "id": "criterion-0",
+          "label": "所选指标的必需字段齐全",
+          "required": true,
+          "kind": "fields_complete"
+        },
+        {
+          "id": "criterion-1",
+          "label": "核心指标可回到原始字段与计算依赖",
+          "required": true,
+          "kind": "calculation_lineage"
+        },
+        {
+          "id": "criterion-2",
+          "label": "每条判断标明事实、归纳或假设",
+          "required": true,
+          "kind": "claims_typed"
+        },
+        {
+          "id": "criterion-3",
+          "label": "记录反证、数据缺口和继续研究问题",
+          "required": true,
+          "kind": "counterchecks"
+        }
+      ],
+      "adaptivePolicy": {
+        "maxRounds": 1,
+        "maxTasks": 2
+      }
+    },
+    "budget": {
+      "maxModelCalls": 6,
+      "maxToolCalls": 12,
+      "maxSeconds": 180
+    },
+    "approvals": [
+      {
+        "id": "77287fca-fa7b-473a-99a4-9b684e7230a3",
+        "type": "initial",
+        "message": "确认研究对象、截止时点与调用预算后，开始只读研究。",
+        "status": "approved",
+        "planHash": "2f3ae56b4fe26baac206ec8b3dc3ae434b50922cef437fb3525148df571e1646",
+        "planVersion": 1,
+        "expiresAt": "2026-10-11T02:48:36.486Z",
+        "budget": {
+          "maxModelCalls": 6,
+          "maxToolCalls": 12,
+          "maxSeconds": 180
+        },
+        "approvedAt": "2026-10-10T02:48:36.493Z"
+      }
+    ],
+    "calls": [
+      {
+        "projectId": "2e60c94f-1fea-4b83-a1d1-52a4d7cce3ef",
+        "planVersion": 1,
+        "key": "v1-resolve:attempt-1:demo.resolve",
+        "taskId": "v1-resolve",
+        "mode": "demo",
+        "kind": "tool",
+        "purpose": "demo.resolve",
+        "id": "1eae7dd7-fdb5-4261-8f2a-380a973e39b4",
+        "state": "succeeded",
+        "reservedAt": "2026-10-10T02:48:37.384Z",
+        "startedAt": "2026-10-10T02:48:37.387Z",
+        "endedAt": "2026-10-10T02:48:37.389Z",
+        "durationMs": 2
+      },
+      {
+        "projectId": "2e60c94f-1fea-4b83-a1d1-52a4d7cce3ef",
+        "planVersion": 1,
+        "key": "v1-finance-0:attempt-1:demo.financials",
+        "taskId": "v1-finance-0",
+        "mode": "demo",
+        "kind": "tool",
+        "purpose": "demo.financials",
+        "id": "2be3523f-68f1-441a-855e-cc00b7ad617e",
+        "state": "succeeded",
+        "reservedAt": "2026-10-10T02:48:38.151Z",
+        "startedAt": "2026-10-10T02:48:38.154Z",
+        "endedAt": "2026-10-10T02:48:38.158Z",
+        "durationMs": 4
+      },
+      {
+        "projectId": "2e60c94f-1fea-4b83-a1d1-52a4d7cce3ef",
+        "planVersion": 1,
+        "key": "v1-finance-1:attempt-1:demo.financials",
+        "taskId": "v1-finance-1",
+        "mode": "demo",
+        "kind": "tool",
+        "purpose": "demo.financials",
+        "id": "e9938a15-edc0-494c-aeb9-a9203743db59",
+        "state": "succeeded",
+        "reservedAt": "2026-10-10T02:48:38.903Z",
+        "startedAt": "2026-10-10T02:48:38.906Z",
+        "endedAt": "2026-10-10T02:48:38.908Z",
+        "durationMs": 2
+      },
+      {
+        "projectId": "2e60c94f-1fea-4b83-a1d1-52a4d7cce3ef",
+        "planVersion": 1,
+        "key": "v1-filing-0:attempt-1:demo.filings",
+        "taskId": "v1-filing-0",
+        "mode": "demo",
+        "kind": "tool",
+        "purpose": "demo.filings",
+        "id": "99e782b3-9833-47cd-afc3-fdaf6d144f43",
+        "state": "succeeded",
+        "reservedAt": "2026-10-10T02:48:39.687Z",
+        "startedAt": "2026-10-10T02:48:39.690Z",
+        "endedAt": "2026-10-10T02:48:39.692Z",
+        "durationMs": 2
+      },
+      {
+        "projectId": "2e60c94f-1fea-4b83-a1d1-52a4d7cce3ef",
+        "planVersion": 1,
+        "key": "v1-filing-1:attempt-1:demo.filings",
+        "taskId": "v1-filing-1",
+        "mode": "demo",
+        "kind": "tool",
+        "purpose": "demo.filings",
+        "id": "e582648e-4e12-4bb2-9047-6af44c2302ac",
+        "state": "succeeded",
+        "reservedAt": "2026-10-10T02:48:40.433Z",
+        "startedAt": "2026-10-10T02:48:40.436Z",
+        "endedAt": "2026-10-10T02:48:40.439Z",
+        "durationMs": 3
+      },
+      {
+        "projectId": "2e60c94f-1fea-4b83-a1d1-52a4d7cce3ef",
+        "planVersion": 1,
+        "key": "v1-counter-0:attempt-1:demo.counter",
+        "taskId": "v1-counter-0",
+        "mode": "demo",
+        "kind": "tool",
+        "purpose": "demo.counter",
+        "id": "b2148a67-8c40-485f-97e4-439944e87f4c",
+        "state": "succeeded",
+        "reservedAt": "2026-10-10T02:48:42.743Z",
+        "startedAt": "2026-10-10T02:48:42.747Z",
+        "endedAt": "2026-10-10T02:48:42.749Z",
+        "durationMs": 3
+      },
+      {
+        "projectId": "2e60c94f-1fea-4b83-a1d1-52a4d7cce3ef",
+        "planVersion": 1,
+        "key": "v1-counter-1:attempt-1:demo.counter",
+        "taskId": "v1-counter-1",
+        "mode": "demo",
+        "kind": "tool",
+        "purpose": "demo.counter",
+        "id": "2010a0b3-96a6-4a97-aeda-5e7496c0b74d",
+        "state": "succeeded",
+        "reservedAt": "2026-10-10T02:48:43.508Z",
+        "startedAt": "2026-10-10T02:48:43.512Z",
+        "endedAt": "2026-10-10T02:48:43.514Z",
+        "durationMs": 3
+      }
+    ],
+    "counterChecks": [
+      {
+        "id": "077afef6-dc5f-4c1a-ac34-20ed42585109",
+        "claimId": "hypothesis-cash-v1",
+        "entity": "000333.SZ",
+        "question": "现金支撑观察是否足以支持经营质量持续改善？",
+        "condition": "若材料表明现金流受回款时点、营运资本或可比性限制，应收窄持续性判断。",
+        "status": "checked",
+        "findings": [
+          {
+            "evidenceId": "e2-a1cedacf1ca421f44541baaf94181dc9fef6ff10278256c4cb7b0f148c6d723f",
+            "relation": "limits",
+            "quote": "【构造样本，非实际财报】本期经营现金流变化包含营运资本回款时点的影响，不能仅凭年度现金利润比认定经营质量持续改善。",
+            "reason": "构造附注限制持续性推断。",
+            "locator": "正文字符 0–57",
+            "assessment": "rule_demo"
+          },
+          {
+            "evidenceId": "e2-f872ec2ab12fda7bcad9d487639495fd2c16ca1f0d4c56eb8eed7b329088599d",
+            "relation": "irrelevant",
+            "quote": "【构造样本，非实际公告】本材料介绍新品发布活动，未提供当前研究问题所需的财务说明。",
+            "reason": "材料与当前现金支撑假设无关。",
+            "locator": "正文字符 0–41",
+            "assessment": "rule_demo"
+          }
+        ],
+        "coverage": {
+          "query": "经营现金流 营运资本 回款时点 持续性",
+          "asOf": "2025-04-30",
+          "source": "构造附注",
+          "recordsReviewed": 2,
+          "recordsRetrieved": 2
+        },
+        "limitations": [
+          "已核查来源不代表全部材料；关系评估不构成因果证明"
+        ],
+        "at": "2026-10-10T02:48:42.743Z"
+      },
+      {
+        "id": "71ba4ee5-e164-4a63-9148-1577efe43532",
+        "claimId": "hypothesis-cash-v1",
+        "entity": "000651.SZ",
+        "question": "现金支撑观察是否足以支持经营质量持续改善？",
+        "condition": "若材料表明现金流受回款时点、营运资本或可比性限制，应收窄持续性判断。",
+        "status": "checked",
+        "findings": [
+          {
+            "evidenceId": "e2-dd812c526a149e93b2cce156730b3feb4ea1ac0e34c6f55c542c6a4edf4bb2d4",
+            "relation": "limits",
+            "quote": "【构造样本，非实际财报】本期经营现金流变化包含营运资本回款时点的影响，不能仅凭年度现金利润比认定经营质量持续改善。",
+            "reason": "构造附注限制持续性推断。",
+            "locator": "正文字符 0–57",
+            "assessment": "rule_demo"
+          },
+          {
+            "evidenceId": "e2-580faeb0659518bf2cabbd4b7644e659efbce616907017f5399c7da489c41baa",
+            "relation": "irrelevant",
+            "quote": "【构造样本，非实际公告】本材料介绍新品发布活动，未提供当前研究问题所需的财务说明。",
+            "reason": "材料与当前现金支撑假设无关。",
+            "locator": "正文字符 0–41",
+            "assessment": "rule_demo"
+          }
+        ],
+        "coverage": {
+          "query": "经营现金流 营运资本 回款时点 持续性",
+          "asOf": "2025-04-30",
+          "source": "构造附注",
+          "recordsReviewed": 2,
+          "recordsRetrieved": 2
+        },
+        "limitations": [
+          "已核查来源不代表全部材料；关系评估不构成因果证明"
+        ],
+        "at": "2026-10-10T02:48:43.508Z"
+      }
+    ],
+    "claimRevisions": [
+      {
+        "claimId": "hypothesis-cash-v1",
+        "at": "2026-10-10T02:48:44.288Z",
+        "before": {
+          "id": "hypothesis-cash-v1",
+          "core": true,
+          "kind": "hypothesis",
+          "text": "待核查：较高现金利润比是否意味着经营质量持续改善？",
+          "supportIds": [
+            "e2-196e385e09d494991e28b32c82a187aaca4ed4aea6a45e0721f14504a2342cd4",
+            "e2-831d066be6b38540a8bf8903987a37562a48eeec2ff23fcf500cdb2f5de47579"
+          ],
+          "counterIds": [],
+          "limitations": [
+            "业务结构与营运资本变化尚需核查",
+            "年末现金流不能代表每个季度"
+          ],
+          "confidence": "limited",
+          "verified": false,
+          "revision": 1,
+          "validation": {
+            "references": "pass",
+            "numeric": "not_applicable",
+            "semantic": "needs_review"
+          }
+        },
+        "after": {
+          "id": "hypothesis-cash-v1",
+          "core": true,
+          "kind": "inference",
+          "text": "当前证据支持现金支撑的局部观察；材料中的时点与可比性限制使持续改善的判断仍需核查。",
+          "supportIds": [
+            "e2-196e385e09d494991e28b32c82a187aaca4ed4aea6a45e0721f14504a2342cd4",
+            "e2-831d066be6b38540a8bf8903987a37562a48eeec2ff23fcf500cdb2f5de47579"
+          ],
+          "counterIds": [
+            "e2-a1cedacf1ca421f44541baaf94181dc9fef6ff10278256c4cb7b0f148c6d723f",
+            "e2-dd812c526a149e93b2cce156730b3feb4ea1ac0e34c6f55c542c6a4edf4bb2d4"
+          ],
+          "limitations": [
+            "业务结构与营运资本变化尚需核查",
+            "年末现金流不能代表每个季度"
+          ],
+          "confidence": "limited",
+          "verified": false,
+          "revision": 2,
+          "validation": {
+            "references": "pass",
+            "numeric": "not_applicable",
+            "semantic": "needs_review"
+          }
+        },
+        "checkIds": [
+          "077afef6-dc5f-4c1a-ac34-20ed42585109",
+          "71ba4ee5-e164-4a63-9148-1577efe43532"
+        ]
+      }
+    ],
+    "context": {
+      "planVersion": 1,
+      "recentMessages": [
+        {
+          "id": "e8a71836-cd3d-43ac-94ab-9dffb83c9835",
+          "role": "user",
+          "text": "比较美的集团与格力电器最近两个可比年度报告期：利润有多少经营现金流支撑？找出变化、反证与值得继续核查的问题。",
+          "at": "2026-10-10T02:48:36.486Z",
+          "evidenceIds": []
+        }
+      ],
+      "userCorrections": [],
+      "confirmedFacts": [],
+      "currentJudgments": [],
+      "revisedHypotheses": [],
+      "version": 1,
+      "goal": "比较美的集团与格力电器最近两个可比年度报告期：利润有多少经营现金流支撑？找出变化、反证与值得继续核查的问题。",
+      "constraints": [
+        "数据模式：demo",
+        "截止：2025-04-30",
+        "报告期：2023、2024",
+        "仅只读研究；区分事实、归纳、假设；不得给买卖或仓位建议"
+      ],
+      "evidenceIds": [
+        "e2-6115fbf22c8a71843f3f6a79a986766e6e1b3a0e0641abfa7a5984158b46c0d8",
+        "e2-0b9f71e8be9f50a14f57c0e4589c862c2c4110ce96ab268f85d573d36a945a98",
+        "e2-11e36baa5891fa0ec91b97ef6558779f36dc209355a1a73786746bb9ee8c139a",
+        "e2-ef1573f6b26e882b0b7556627320e72df45ca67649edae212aead0354de7ad16",
+        "e2-7d33e312da00c32ca186cdfbb3763f5359d73d1ef82b716d938fe0698bd3d1e4",
+        "e2-e663e7a29d4658112bd1608e9bdba6c1a01a00c6d27343b8da655d80d2e89c69",
+        "e2-257c4d8b69dd1de9766a9546a5e38b222f032bf99b72800ab7009eeed7288dbd",
+        "e2-119fd07c5bcd7048851a6fb56abc00dd066a346580e523a5fb82e21e501007d9",
+        "e2-753e41d1073cad15fff449d19522713b975ec5cbe71f6456addb21caf1a2ee69",
+        "e2-9163956a5b92cfab8cc0dfaee7554e8686d7c9687c2f1ab8f1d5dde548347578",
+        "e2-c8a9f1ce5e432e975c1d53f69719d5cfaa18d3750f7c1bd94e02f0bcae4861d7",
+        "e2-031087c2dd44f4e709f0efc21e47f61c763e4f3e236d0d6c98668ec27afcc978",
+        "e2-6e94d144dfedd1c364f0ab537c1532b101d49dbb48637ea36f491aa656d1c3ae",
+        "e2-201b04b3b0d86258391ad9dbd08187ed09be4facde4a2c90418d94b0e67980a4",
+        "e2-9381bf09420643864e7be939ed470555ebda3a002b9d285e13341da047dc31ed",
+        "e2-196e385e09d494991e28b32c82a187aaca4ed4aea6a45e0721f14504a2342cd4",
+        "e2-d24a6075f43fc6c62898c36e72b0fe917eabd7bbf582eec97d2b034fb2908305",
+        "e2-831d066be6b38540a8bf8903987a37562a48eeec2ff23fcf500cdb2f5de47579",
+        "e2-18d67b7097c4d4c50192d9ef9649cccb1d67ca17439ebcb037e8783b25cd5c93",
+        "e2-5a35ee71a9f26cb1d24e247820319aa4647b21eb1c09103f0d0262c348e0916d",
+        "e2-065d597992eee46973888dd9313a500ce83a669e4603c94316ecf7b8ce1a0926",
+        "e2-34803cd1e609d41587ce4d44cd1de7c959bce281169ae1c1a1f570198cb0eec1"
+      ],
+      "completed": [
+        "v1-resolve",
+        "v1-finance-0",
+        "v1-finance-1",
+        "v1-filing-0",
+        "v1-filing-1",
+        "v1-calculate"
+      ],
+      "openQuestions": [],
+      "nextTask": "v1-counter-0",
+      "beforeChars": 24774,
+      "afterChars": 2236,
+      "createdAt": "2026-10-10T02:48:41.979Z"
+    }
+  },
+  "evidence": [
+    {
+      "type": "field",
+      "label": "经营现金流",
+      "entity": "格力电器",
+      "year": 2024,
+      "field": "operatingCashflow",
+      "value": 38000000000,
+      "unit": "CNY yuan",
+      "source": "X Buddy 构造财务样本（非真实财报）",
+      "sourceRecordId": "fixture:000651.SZ:2024",
+      "publishedAt": "2025-04-20T00:00:00.000Z",
+      "retrievedAt": "2026-10-10T02:48:38.908Z",
+      "raw": {
+        "code": "000651.SZ",
+        "name": "格力电器",
+        "year": 2024,
+        "period": "annual",
+        "currency": "CNY",
+        "unit": "yuan",
+        "revenue": 197000000000,
+        "netProfit": 29800000000,
+        "operatingCashflow": 38000000000,
+        "publishedAt": "2025-04-20T00:00:00.000Z",
+        "retrievedAt": "2026-10-10T02:48:38.908Z",
+        "source": "X Buddy 构造财务样本（非真实财报）",
+        "sourceRecordId": "fixture:000651.SZ:2024",
+        "mode": "demo"
+      },
+      "inputIds": [],
+      "mode": "demo",
+      "caveats": [],
+      "locator": "operatingCashflow",
+      "planVersion": 1,
+      "snapshotId": "src-5a75b81b71564caa4611c870640bcc84f2fb84e4df3314de52e87c4afac4a8c0",
+      "snapshotHash": "5a75b81b71564caa4611c870640bcc84f2fb84e4df3314de52e87c4afac4a8c0",
+      "id": "e2-031087c2dd44f4e709f0efc21e47f61c763e4f3e236d0d6c98668ec27afcc978",
+      "contentHash": "031087c2dd44f4e709f0efc21e47f61c763e4f3e236d0d6c98668ec27afcc978"
+    },
+    {
+      "type": "calculation",
+      "label": "归母净利润变化率",
+      "entity": "格力电器",
+      "year": 2024,
+      "field": "netProfitGrowth",
+      "value": 0.06428571428571428,
+      "unit": "ratio",
+      "source": "确定性计算",
+      "sourceRecordId": "calc:000651.SZ:netProfit:growth",
+      "publishedAt": "2025-04-20T00:00:00.000Z",
+      "retrievedAt": "2026-10-10T02:48:41.213Z",
+      "raw": {
+        "current": 29800000000,
+        "prior": 28000000000
+      },
+      "formula": "(本期值 − 上期值) ÷ 上期值；上期值必须为正",
+      "formulaKey": "growth",
+      "algorithmVersion": "1",
+      "inputIds": [
+        "e2-c8a9f1ce5e432e975c1d53f69719d5cfaa18d3750f7c1bd94e02f0bcae4861d7",
+        "e2-119fd07c5bcd7048851a6fb56abc00dd066a346580e523a5fb82e21e501007d9"
+      ],
+      "mode": "demo",
+      "caveats": [],
+      "planVersion": 1,
+      "snapshotId": "src-3e632a49a27b857c6fcd446a5aff08f0b94630667619ba1eb9ceead425df0341",
+      "snapshotHash": "3e632a49a27b857c6fcd446a5aff08f0b94630667619ba1eb9ceead425df0341",
+      "id": "e2-065d597992eee46973888dd9313a500ce83a669e4603c94316ecf7b8ce1a0926",
+      "contentHash": "065d597992eee46973888dd9313a500ce83a669e4603c94316ecf7b8ce1a0926"
+    },
+    {
+      "type": "field",
+      "label": "归母净利润",
+      "entity": "美的集团",
+      "year": 2023,
+      "field": "netProfit",
+      "value": 31000000000,
+      "unit": "CNY yuan",
+      "source": "X Buddy 构造财务样本（非真实财报）",
+      "sourceRecordId": "fixture:000333.SZ:2023",
+      "publishedAt": "2024-04-20T00:00:00.000Z",
+      "retrievedAt": "2026-10-10T02:48:38.156Z",
+      "raw": {
+        "code": "000333.SZ",
+        "name": "美的集团",
+        "year": 2023,
+        "period": "annual",
+        "currency": "CNY",
+        "unit": "yuan",
+        "revenue": 350000000000,
+        "netProfit": 31000000000,
+        "operatingCashflow": 42000000000,
+        "publishedAt": "2024-04-20T00:00:00.000Z",
+        "retrievedAt": "2026-10-10T02:48:38.156Z",
+        "source": "X Buddy 构造财务样本（非真实财报）",
+        "sourceRecordId": "fixture:000333.SZ:2023",
+        "mode": "demo"
+      },
+      "inputIds": [],
+      "mode": "demo",
+      "caveats": [],
+      "locator": "netProfit",
+      "planVersion": 1,
+      "snapshotId": "src-4a86e22cd4000f73f9b575316c8e1b2c15f8a527b97a302bf675d7e1e37cecb3",
+      "snapshotHash": "4a86e22cd4000f73f9b575316c8e1b2c15f8a527b97a302bf675d7e1e37cecb3",
+      "id": "e2-0b9f71e8be9f50a14f57c0e4589c862c2c4110ce96ab268f85d573d36a945a98",
+      "contentHash": "0b9f71e8be9f50a14f57c0e4589c862c2c4110ce96ab268f85d573d36a945a98"
+    },
+    {
+      "type": "field",
+      "label": "归母净利润",
+      "entity": "格力电器",
+      "year": 2023,
+      "field": "netProfit",
+      "value": 28000000000,
+      "unit": "CNY yuan",
+      "source": "X Buddy 构造财务样本（非真实财报）",
+      "sourceRecordId": "fixture:000651.SZ:2023",
+      "publishedAt": "2024-04-20T00:00:00.000Z",
+      "retrievedAt": "2026-10-10T02:48:38.908Z",
+      "raw": {
+        "code": "000651.SZ",
+        "name": "格力电器",
+        "year": 2023,
+        "period": "annual",
+        "currency": "CNY",
+        "unit": "yuan",
+        "revenue": 203000000000,
+        "netProfit": 28000000000,
+        "operatingCashflow": 45000000000,
+        "publishedAt": "2024-04-20T00:00:00.000Z",
+        "retrievedAt": "2026-10-10T02:48:38.908Z",
+        "source": "X Buddy 构造财务样本（非真实财报）",
+        "sourceRecordId": "fixture:000651.SZ:2023",
+        "mode": "demo"
+      },
+      "inputIds": [],
+      "mode": "demo",
+      "caveats": [],
+      "locator": "netProfit",
+      "planVersion": 1,
+      "snapshotId": "src-af9d42893ced3467225cc0c16753a4b6c714b11b550a8efb45f0f38f86230522",
+      "snapshotHash": "af9d42893ced3467225cc0c16753a4b6c714b11b550a8efb45f0f38f86230522",
+      "id": "e2-119fd07c5bcd7048851a6fb56abc00dd066a346580e523a5fb82e21e501007d9",
+      "contentHash": "119fd07c5bcd7048851a6fb56abc00dd066a346580e523a5fb82e21e501007d9"
+    },
+    {
+      "type": "field",
+      "label": "经营现金流",
+      "entity": "美的集团",
+      "year": 2023,
+      "field": "operatingCashflow",
+      "value": 42000000000,
+      "unit": "CNY yuan",
+      "source": "X Buddy 构造财务样本（非真实财报）",
+      "sourceRecordId": "fixture:000333.SZ:2023",
+      "publishedAt": "2024-04-20T00:00:00.000Z",
+      "retrievedAt": "2026-10-10T02:48:38.156Z",
+      "raw": {
+        "code": "000333.SZ",
+        "name": "美的集团",
+        "year": 2023,
+        "period": "annual",
+        "currency": "CNY",
+        "unit": "yuan",
+        "revenue": 350000000000,
+        "netProfit": 31000000000,
+        "operatingCashflow": 42000000000,
+        "publishedAt": "2024-04-20T00:00:00.000Z",
+        "retrievedAt": "2026-10-10T02:48:38.156Z",
+        "source": "X Buddy 构造财务样本（非真实财报）",
+        "sourceRecordId": "fixture:000333.SZ:2023",
+        "mode": "demo"
+      },
+      "inputIds": [],
+      "mode": "demo",
+      "caveats": [],
+      "locator": "operatingCashflow",
+      "planVersion": 1,
+      "snapshotId": "src-4a86e22cd4000f73f9b575316c8e1b2c15f8a527b97a302bf675d7e1e37cecb3",
+      "snapshotHash": "4a86e22cd4000f73f9b575316c8e1b2c15f8a527b97a302bf675d7e1e37cecb3",
+      "id": "e2-11e36baa5891fa0ec91b97ef6558779f36dc209355a1a73786746bb9ee8c139a",
+      "contentHash": "11e36baa5891fa0ec91b97ef6558779f36dc209355a1a73786746bb9ee8c139a"
+    },
+    {
+      "type": "calculation",
+      "label": "归母净利润变化率",
+      "entity": "美的集团",
+      "year": 2024,
+      "field": "netProfitGrowth",
+      "value": 0.11290322580645161,
+      "unit": "ratio",
+      "source": "确定性计算",
+      "sourceRecordId": "calc:000333.SZ:netProfit:growth",
+      "publishedAt": "2025-04-20T00:00:00.000Z",
+      "retrievedAt": "2026-10-10T02:48:41.213Z",
+      "raw": {
+        "current": 34500000000,
+        "prior": 31000000000
+      },
+      "formula": "(本期值 − 上期值) ÷ 上期值；上期值必须为正",
+      "formulaKey": "growth",
+      "algorithmVersion": "1",
+      "inputIds": [
+        "e2-7d33e312da00c32ca186cdfbb3763f5359d73d1ef82b716d938fe0698bd3d1e4",
+        "e2-0b9f71e8be9f50a14f57c0e4589c862c2c4110ce96ab268f85d573d36a945a98"
+      ],
+      "mode": "demo",
+      "caveats": [],
+      "planVersion": 1,
+      "snapshotId": "src-ca1df3f9f92831724b4cdc17e86f83daceeb6709bfc9f797f295759e88926946",
+      "snapshotHash": "ca1df3f9f92831724b4cdc17e86f83daceeb6709bfc9f797f295759e88926946",
+      "id": "e2-18d67b7097c4d4c50192d9ef9649cccb1d67ca17439ebcb037e8783b25cd5c93",
+      "contentHash": "18d67b7097c4d4c50192d9ef9649cccb1d67ca17439ebcb037e8783b25cd5c93"
+    },
+    {
+      "type": "calculation",
+      "label": "现金利润比",
+      "entity": "美的集团",
+      "year": 2024,
+      "field": "cashConversion",
+      "value": 1.4782608695652173,
+      "unit": "倍",
+      "source": "确定性计算",
+      "sourceRecordId": "calc:000333.SZ:2024",
+      "publishedAt": "2025-04-20T00:00:00.000Z",
+      "retrievedAt": "2026-10-10T02:48:41.213Z",
+      "raw": {
+        "operatingCashflow": 51000000000,
+        "netProfit": 34500000000
+      },
+      "formula": "经营活动现金流净额 ÷ 归属于母公司股东的净利润",
+      "formulaKey": "cash_conversion",
+      "algorithmVersion": "1",
+      "inputIds": [
+        "e2-e663e7a29d4658112bd1608e9bdba6c1a01a00c6d27343b8da655d80d2e89c69",
+        "e2-7d33e312da00c32ca186cdfbb3763f5359d73d1ef82b716d938fe0698bd3d1e4"
+      ],
+      "mode": "demo",
+      "caveats": [
+        "比值受营运资本、季节性与业务结构影响，不能直接作为公司排名"
+      ],
+      "planVersion": 1,
+      "snapshotId": "src-dc72603977c6ece35ca90d59b4c334db713528e2e5faf5681604e27f87b84550",
+      "snapshotHash": "dc72603977c6ece35ca90d59b4c334db713528e2e5faf5681604e27f87b84550",
+      "id": "e2-196e385e09d494991e28b32c82a187aaca4ed4aea6a45e0721f14504a2342cd4",
+      "contentHash": "196e385e09d494991e28b32c82a187aaca4ed4aea6a45e0721f14504a2342cd4"
+    },
+    {
+      "type": "excerpt",
+      "label": "格力电器 · 营运资本与业务结构核查样本",
+      "entity": "000651.SZ",
+      "unit": "原文",
+      "source": "X Buddy 构造文本样本",
+      "sourceRecordId": "fixture:filing:000651.SZ",
+      "publishedAt": "2025-04-20T00:00:00.000Z",
+      "retrievedAt": "2026-10-10T02:48:40.441Z",
+      "raw": "【构造材料，非公司实际公告】本样本模拟以下研究局限：经营现金流可能受应收回款、存货和应付项目变化影响；业务结构与海外收入占比影响公司间可比性。当前年度数据不能单独证明变化是否持续，需要核查附注与季度数据。",
+      "inputIds": [],
+      "mode": "demo",
+      "caveats": [
+        "检索到的材料不代表完整覆盖；未检索到反证不等于不存在反证"
+      ],
+      "locator": "正文字符 0–102",
+      "planVersion": 1,
+      "snapshotId": "src-36c4106d0073c4cb775327e19a20e20653358f35428d8971e998b8945b34ade4",
+      "snapshotHash": "36c4106d0073c4cb775327e19a20e20653358f35428d8971e998b8945b34ade4",
+      "id": "e2-201b04b3b0d86258391ad9dbd08187ed09be4facde4a2c90418d94b0e67980a4",
+      "contentHash": "201b04b3b0d86258391ad9dbd08187ed09be4facde4a2c90418d94b0e67980a4"
+    },
+    {
+      "type": "field",
+      "label": "营业收入",
+      "entity": "格力电器",
+      "year": 2023,
+      "field": "revenue",
+      "value": 203000000000,
+      "unit": "CNY yuan",
+      "source": "X Buddy 构造财务样本（非真实财报）",
+      "sourceRecordId": "fixture:000651.SZ:2023",
+      "publishedAt": "2024-04-20T00:00:00.000Z",
+      "retrievedAt": "2026-10-10T02:48:38.908Z",
+      "raw": {
+        "code": "000651.SZ",
+        "name": "格力电器",
+        "year": 2023,
+        "period": "annual",
+        "currency": "CNY",
+        "unit": "yuan",
+        "revenue": 203000000000,
+        "netProfit": 28000000000,
+        "operatingCashflow": 45000000000,
+        "publishedAt": "2024-04-20T00:00:00.000Z",
+        "retrievedAt": "2026-10-10T02:48:38.908Z",
+        "source": "X Buddy 构造财务样本（非真实财报）",
+        "sourceRecordId": "fixture:000651.SZ:2023",
+        "mode": "demo"
+      },
+      "inputIds": [],
+      "mode": "demo",
+      "caveats": [],
+      "locator": "revenue",
+      "planVersion": 1,
+      "snapshotId": "src-af9d42893ced3467225cc0c16753a4b6c714b11b550a8efb45f0f38f86230522",
+      "snapshotHash": "af9d42893ced3467225cc0c16753a4b6c714b11b550a8efb45f0f38f86230522",
+      "id": "e2-257c4d8b69dd1de9766a9546a5e38b222f032bf99b72800ab7009eeed7288dbd",
+      "contentHash": "257c4d8b69dd1de9766a9546a5e38b222f032bf99b72800ab7009eeed7288dbd"
+    },
+    {
+      "type": "calculation",
+      "label": "经营现金流变化率",
+      "entity": "格力电器",
+      "year": 2024,
+      "field": "operatingCashflowGrowth",
+      "value": -0.15555555555555556,
+      "unit": "ratio",
+      "source": "确定性计算",
+      "sourceRecordId": "calc:000651.SZ:operatingCashflow:growth",
+      "publishedAt": "2025-04-20T00:00:00.000Z",
+      "retrievedAt": "2026-10-10T02:48:41.213Z",
+      "raw": {
+        "current": 38000000000,
+        "prior": 45000000000
+      },
+      "formula": "(本期值 − 上期值) ÷ 上期值；上期值必须为正",
+      "formulaKey": "growth",
+      "algorithmVersion": "1",
+      "inputIds": [
+        "e2-031087c2dd44f4e709f0efc21e47f61c763e4f3e236d0d6c98668ec27afcc978",
+        "e2-753e41d1073cad15fff449d19522713b975ec5cbe71f6456addb21caf1a2ee69"
+      ],
+      "mode": "demo",
+      "caveats": [],
+      "planVersion": 1,
+      "snapshotId": "src-5fc0f2d056b43a8182d057a9beb5f51dbe88bfa9ff84d3dc5019d15a574816e4",
+      "snapshotHash": "5fc0f2d056b43a8182d057a9beb5f51dbe88bfa9ff84d3dc5019d15a574816e4",
+      "id": "e2-34803cd1e609d41587ce4d44cd1de7c959bce281169ae1c1a1f570198cb0eec1",
+      "contentHash": "34803cd1e609d41587ce4d44cd1de7c959bce281169ae1c1a1f570198cb0eec1"
+    },
+    {
+      "type": "excerpt",
+      "label": "格力电器 · 新品活动（构造）",
+      "entity": "000651.SZ",
+      "unit": "原文",
+      "source": "X Buddy 构造无关材料",
+      "sourceRecordId": "counter:000651.SZ:unrelated",
+      "publishedAt": "2025-04-20T00:00:00.000Z",
+      "retrievedAt": "2026-10-10T02:48:43.516Z",
+      "raw": "【构造样本，非实际公告】本材料介绍新品发布活动，未提供当前研究问题所需的财务说明。",
+      "inputIds": [],
+      "mode": "demo",
+      "caveats": [
+        "检索到的材料不代表完整覆盖；未检索到反证不等于不存在反证"
+      ],
+      "locator": "正文字符 0–41",
+      "planVersion": 1,
+      "snapshotId": "src-88203654752624bf7c5903492eb6777dcf41178cf9bedeba76b6e2f3be8707ef",
+      "snapshotHash": "88203654752624bf7c5903492eb6777dcf41178cf9bedeba76b6e2f3be8707ef",
+      "id": "e2-580faeb0659518bf2cabbd4b7644e659efbce616907017f5399c7da489c41baa",
+      "contentHash": "580faeb0659518bf2cabbd4b7644e659efbce616907017f5399c7da489c41baa"
+    },
+    {
+      "type": "calculation",
+      "label": "经营现金流变化率",
+      "entity": "美的集团",
+      "year": 2024,
+      "field": "operatingCashflowGrowth",
+      "value": 0.21428571428571427,
+      "unit": "ratio",
+      "source": "确定性计算",
+      "sourceRecordId": "calc:000333.SZ:operatingCashflow:growth",
+      "publishedAt": "2025-04-20T00:00:00.000Z",
+      "retrievedAt": "2026-10-10T02:48:41.213Z",
+      "raw": {
+        "current": 51000000000,
+        "prior": 42000000000
+      },
+      "formula": "(本期值 − 上期值) ÷ 上期值；上期值必须为正",
+      "formulaKey": "growth",
+      "algorithmVersion": "1",
+      "inputIds": [
+        "e2-e663e7a29d4658112bd1608e9bdba6c1a01a00c6d27343b8da655d80d2e89c69",
+        "e2-11e36baa5891fa0ec91b97ef6558779f36dc209355a1a73786746bb9ee8c139a"
+      ],
+      "mode": "demo",
+      "caveats": [],
+      "planVersion": 1,
+      "snapshotId": "src-9ec039d68554cbcc0ac36a5966cf947a356c8d11299c1fdbdcbac28fe3fd1fc4",
+      "snapshotHash": "9ec039d68554cbcc0ac36a5966cf947a356c8d11299c1fdbdcbac28fe3fd1fc4",
+      "id": "e2-5a35ee71a9f26cb1d24e247820319aa4647b21eb1c09103f0d0262c348e0916d",
+      "contentHash": "5a35ee71a9f26cb1d24e247820319aa4647b21eb1c09103f0d0262c348e0916d"
+    },
+    {
+      "type": "field",
+      "label": "营业收入",
+      "entity": "美的集团",
+      "year": 2023,
+      "field": "revenue",
+      "value": 350000000000,
+      "unit": "CNY yuan",
+      "source": "X Buddy 构造财务样本（非真实财报）",
+      "sourceRecordId": "fixture:000333.SZ:2023",
+      "publishedAt": "2024-04-20T00:00:00.000Z",
+      "retrievedAt": "2026-10-10T02:48:38.156Z",
+      "raw": {
+        "code": "000333.SZ",
+        "name": "美的集团",
+        "year": 2023,
+        "period": "annual",
+        "currency": "CNY",
+        "unit": "yuan",
+        "revenue": 350000000000,
+        "netProfit": 31000000000,
+        "operatingCashflow": 42000000000,
+        "publishedAt": "2024-04-20T00:00:00.000Z",
+        "retrievedAt": "2026-10-10T02:48:38.156Z",
+        "source": "X Buddy 构造财务样本（非真实财报）",
+        "sourceRecordId": "fixture:000333.SZ:2023",
+        "mode": "demo"
+      },
+      "inputIds": [],
+      "mode": "demo",
+      "caveats": [],
+      "locator": "revenue",
+      "planVersion": 1,
+      "snapshotId": "src-4a86e22cd4000f73f9b575316c8e1b2c15f8a527b97a302bf675d7e1e37cecb3",
+      "snapshotHash": "4a86e22cd4000f73f9b575316c8e1b2c15f8a527b97a302bf675d7e1e37cecb3",
+      "id": "e2-6115fbf22c8a71843f3f6a79a986766e6e1b3a0e0641abfa7a5984158b46c0d8",
+      "contentHash": "6115fbf22c8a71843f3f6a79a986766e6e1b3a0e0641abfa7a5984158b46c0d8"
+    },
+    {
+      "type": "excerpt",
+      "label": "美的集团 · 营运资本与业务结构核查样本",
+      "entity": "000333.SZ",
+      "unit": "原文",
+      "source": "X Buddy 构造文本样本",
+      "sourceRecordId": "fixture:filing:000333.SZ",
+      "publishedAt": "2025-04-20T00:00:00.000Z",
+      "retrievedAt": "2026-10-10T02:48:39.695Z",
+      "raw": "【构造材料，非公司实际公告】本样本模拟以下研究局限：经营现金流可能受应收回款、存货和应付项目变化影响；业务结构与海外收入占比影响公司间可比性。当前年度数据不能单独证明变化是否持续，需要核查附注与季度数据。",
+      "inputIds": [],
+      "mode": "demo",
+      "caveats": [
+        "检索到的材料不代表完整覆盖；未检索到反证不等于不存在反证"
+      ],
+      "locator": "正文字符 0–102",
+      "planVersion": 1,
+      "snapshotId": "src-36c4106d0073c4cb775327e19a20e20653358f35428d8971e998b8945b34ade4",
+      "snapshotHash": "36c4106d0073c4cb775327e19a20e20653358f35428d8971e998b8945b34ade4",
+      "id": "e2-6e94d144dfedd1c364f0ab537c1532b101d49dbb48637ea36f491aa656d1c3ae",
+      "contentHash": "6e94d144dfedd1c364f0ab537c1532b101d49dbb48637ea36f491aa656d1c3ae"
+    },
+    {
+      "type": "field",
+      "label": "经营现金流",
+      "entity": "格力电器",
+      "year": 2023,
+      "field": "operatingCashflow",
+      "value": 45000000000,
+      "unit": "CNY yuan",
+      "source": "X Buddy 构造财务样本（非真实财报）",
+      "sourceRecordId": "fixture:000651.SZ:2023",
+      "publishedAt": "2024-04-20T00:00:00.000Z",
+      "retrievedAt": "2026-10-10T02:48:38.908Z",
+      "raw": {
+        "code": "000651.SZ",
+        "name": "格力电器",
+        "year": 2023,
+        "period": "annual",
+        "currency": "CNY",
+        "unit": "yuan",
+        "revenue": 203000000000,
+        "netProfit": 28000000000,
+        "operatingCashflow": 45000000000,
+        "publishedAt": "2024-04-20T00:00:00.000Z",
+        "retrievedAt": "2026-10-10T02:48:38.908Z",
+        "source": "X Buddy 构造财务样本（非真实财报）",
+        "sourceRecordId": "fixture:000651.SZ:2023",
+        "mode": "demo"
+      },
+      "inputIds": [],
+      "mode": "demo",
+      "caveats": [],
+      "locator": "operatingCashflow",
+      "planVersion": 1,
+      "snapshotId": "src-af9d42893ced3467225cc0c16753a4b6c714b11b550a8efb45f0f38f86230522",
+      "snapshotHash": "af9d42893ced3467225cc0c16753a4b6c714b11b550a8efb45f0f38f86230522",
+      "id": "e2-753e41d1073cad15fff449d19522713b975ec5cbe71f6456addb21caf1a2ee69",
+      "contentHash": "753e41d1073cad15fff449d19522713b975ec5cbe71f6456addb21caf1a2ee69"
+    },
+    {
+      "type": "field",
+      "label": "归母净利润",
+      "entity": "美的集团",
+      "year": 2024,
+      "field": "netProfit",
+      "value": 34500000000,
+      "unit": "CNY yuan",
+      "source": "X Buddy 构造财务样本（非真实财报）",
+      "sourceRecordId": "fixture:000333.SZ:2024",
+      "publishedAt": "2025-04-20T00:00:00.000Z",
+      "retrievedAt": "2026-10-10T02:48:38.156Z",
+      "raw": {
+        "code": "000333.SZ",
+        "name": "美的集团",
+        "year": 2024,
+        "period": "annual",
+        "currency": "CNY",
+        "unit": "yuan",
+        "revenue": 389000000000,
+        "netProfit": 34500000000,
+        "operatingCashflow": 51000000000,
+        "publishedAt": "2025-04-20T00:00:00.000Z",
+        "retrievedAt": "2026-10-10T02:48:38.156Z",
+        "source": "X Buddy 构造财务样本（非真实财报）",
+        "sourceRecordId": "fixture:000333.SZ:2024",
+        "mode": "demo"
+      },
+      "inputIds": [],
+      "mode": "demo",
+      "caveats": [],
+      "locator": "netProfit",
+      "planVersion": 1,
+      "snapshotId": "src-ee12df641ca362196f81b2837e4002c9d2e06a09bdddb4f528bbaa66dfc9f728",
+      "snapshotHash": "ee12df641ca362196f81b2837e4002c9d2e06a09bdddb4f528bbaa66dfc9f728",
+      "id": "e2-7d33e312da00c32ca186cdfbb3763f5359d73d1ef82b716d938fe0698bd3d1e4",
+      "contentHash": "7d33e312da00c32ca186cdfbb3763f5359d73d1ef82b716d938fe0698bd3d1e4"
+    },
+    {
+      "type": "calculation",
+      "label": "现金利润比",
+      "entity": "格力电器",
+      "year": 2024,
+      "field": "cashConversion",
+      "value": 1.2751677852348993,
+      "unit": "倍",
+      "source": "确定性计算",
+      "sourceRecordId": "calc:000651.SZ:2024",
+      "publishedAt": "2025-04-20T00:00:00.000Z",
+      "retrievedAt": "2026-10-10T02:48:41.213Z",
+      "raw": {
+        "operatingCashflow": 38000000000,
+        "netProfit": 29800000000
+      },
+      "formula": "经营活动现金流净额 ÷ 归属于母公司股东的净利润",
+      "formulaKey": "cash_conversion",
+      "algorithmVersion": "1",
+      "inputIds": [
+        "e2-031087c2dd44f4e709f0efc21e47f61c763e4f3e236d0d6c98668ec27afcc978",
+        "e2-c8a9f1ce5e432e975c1d53f69719d5cfaa18d3750f7c1bd94e02f0bcae4861d7"
+      ],
+      "mode": "demo",
+      "caveats": [
+        "比值受营运资本、季节性与业务结构影响，不能直接作为公司排名"
+      ],
+      "planVersion": 1,
+      "snapshotId": "src-0ae29a7b27a13bce6fa7f7b6c581345957f241113195b4e33531ec7c1c42021e",
+      "snapshotHash": "0ae29a7b27a13bce6fa7f7b6c581345957f241113195b4e33531ec7c1c42021e",
+      "id": "e2-831d066be6b38540a8bf8903987a37562a48eeec2ff23fcf500cdb2f5de47579",
+      "contentHash": "831d066be6b38540a8bf8903987a37562a48eeec2ff23fcf500cdb2f5de47579"
+    },
+    {
+      "type": "field",
+      "label": "营业收入",
+      "entity": "格力电器",
+      "year": 2024,
+      "field": "revenue",
+      "value": 197000000000,
+      "unit": "CNY yuan",
+      "source": "X Buddy 构造财务样本（非真实财报）",
+      "sourceRecordId": "fixture:000651.SZ:2024",
+      "publishedAt": "2025-04-20T00:00:00.000Z",
+      "retrievedAt": "2026-10-10T02:48:38.908Z",
+      "raw": {
+        "code": "000651.SZ",
+        "name": "格力电器",
+        "year": 2024,
+        "period": "annual",
+        "currency": "CNY",
+        "unit": "yuan",
+        "revenue": 197000000000,
+        "netProfit": 29800000000,
+        "operatingCashflow": 38000000000,
+        "publishedAt": "2025-04-20T00:00:00.000Z",
+        "retrievedAt": "2026-10-10T02:48:38.908Z",
+        "source": "X Buddy 构造财务样本（非真实财报）",
+        "sourceRecordId": "fixture:000651.SZ:2024",
+        "mode": "demo"
+      },
+      "inputIds": [],
+      "mode": "demo",
+      "caveats": [],
+      "locator": "revenue",
+      "planVersion": 1,
+      "snapshotId": "src-5a75b81b71564caa4611c870640bcc84f2fb84e4df3314de52e87c4afac4a8c0",
+      "snapshotHash": "5a75b81b71564caa4611c870640bcc84f2fb84e4df3314de52e87c4afac4a8c0",
+      "id": "e2-9163956a5b92cfab8cc0dfaee7554e8686d7c9687c2f1ab8f1d5dde548347578",
+      "contentHash": "9163956a5b92cfab8cc0dfaee7554e8686d7c9687c2f1ab8f1d5dde548347578"
+    },
+    {
+      "type": "calculation",
+      "label": "现金利润比",
+      "entity": "美的集团",
+      "year": 2023,
+      "field": "cashConversion",
+      "value": 1.3548387096774193,
+      "unit": "倍",
+      "source": "确定性计算",
+      "sourceRecordId": "calc:000333.SZ:2023",
+      "publishedAt": "2024-04-20T00:00:00.000Z",
+      "retrievedAt": "2026-10-10T02:48:41.213Z",
+      "raw": {
+        "operatingCashflow": 42000000000,
+        "netProfit": 31000000000
+      },
+      "formula": "经营活动现金流净额 ÷ 归属于母公司股东的净利润",
+      "formulaKey": "cash_conversion",
+      "algorithmVersion": "1",
+      "inputIds": [
+        "e2-11e36baa5891fa0ec91b97ef6558779f36dc209355a1a73786746bb9ee8c139a",
+        "e2-0b9f71e8be9f50a14f57c0e4589c862c2c4110ce96ab268f85d573d36a945a98"
+      ],
+      "mode": "demo",
+      "caveats": [
+        "比值受营运资本、季节性与业务结构影响，不能直接作为公司排名"
+      ],
+      "planVersion": 1,
+      "snapshotId": "src-546fa57e45ce04d32bf1552bb285c994f5acf0be75f301ca9464ef77e0ce1e96",
+      "snapshotHash": "546fa57e45ce04d32bf1552bb285c994f5acf0be75f301ca9464ef77e0ce1e96",
+      "id": "e2-9381bf09420643864e7be939ed470555ebda3a002b9d285e13341da047dc31ed",
+      "contentHash": "9381bf09420643864e7be939ed470555ebda3a002b9d285e13341da047dc31ed"
+    },
+    {
+      "type": "excerpt",
+      "label": "美的集团 · 现金流附注（构造）",
+      "entity": "000333.SZ",
+      "unit": "原文",
+      "source": "X Buddy 构造反证材料",
+      "sourceRecordId": "counter:000333.SZ:working-capital",
+      "publishedAt": "2025-04-20T00:00:00.000Z",
+      "retrievedAt": "2026-10-10T02:48:42.751Z",
+      "raw": "【构造样本，非实际财报】本期经营现金流变化包含营运资本回款时点的影响，不能仅凭年度现金利润比认定经营质量持续改善。",
+      "inputIds": [],
+      "mode": "demo",
+      "caveats": [
+        "检索到的材料不代表完整覆盖；未检索到反证不等于不存在反证"
+      ],
+      "locator": "正文字符 0–57",
+      "planVersion": 1,
+      "snapshotId": "src-59b6e7101eefa9bfe64f9fd46cd237cbe613c19e5fe9a605a2fa88e8ba619d06",
+      "snapshotHash": "59b6e7101eefa9bfe64f9fd46cd237cbe613c19e5fe9a605a2fa88e8ba619d06",
+      "id": "e2-a1cedacf1ca421f44541baaf94181dc9fef6ff10278256c4cb7b0f148c6d723f",
+      "contentHash": "a1cedacf1ca421f44541baaf94181dc9fef6ff10278256c4cb7b0f148c6d723f"
+    },
+    {
+      "type": "field",
+      "label": "归母净利润",
+      "entity": "格力电器",
+      "year": 2024,
+      "field": "netProfit",
+      "value": 29800000000,
+      "unit": "CNY yuan",
+      "source": "X Buddy 构造财务样本（非真实财报）",
+      "sourceRecordId": "fixture:000651.SZ:2024",
+      "publishedAt": "2025-04-20T00:00:00.000Z",
+      "retrievedAt": "2026-10-10T02:48:38.908Z",
+      "raw": {
+        "code": "000651.SZ",
+        "name": "格力电器",
+        "year": 2024,
+        "period": "annual",
+        "currency": "CNY",
+        "unit": "yuan",
+        "revenue": 197000000000,
+        "netProfit": 29800000000,
+        "operatingCashflow": 38000000000,
+        "publishedAt": "2025-04-20T00:00:00.000Z",
+        "retrievedAt": "2026-10-10T02:48:38.908Z",
+        "source": "X Buddy 构造财务样本（非真实财报）",
+        "sourceRecordId": "fixture:000651.SZ:2024",
+        "mode": "demo"
+      },
+      "inputIds": [],
+      "mode": "demo",
+      "caveats": [],
+      "locator": "netProfit",
+      "planVersion": 1,
+      "snapshotId": "src-5a75b81b71564caa4611c870640bcc84f2fb84e4df3314de52e87c4afac4a8c0",
+      "snapshotHash": "5a75b81b71564caa4611c870640bcc84f2fb84e4df3314de52e87c4afac4a8c0",
+      "id": "e2-c8a9f1ce5e432e975c1d53f69719d5cfaa18d3750f7c1bd94e02f0bcae4861d7",
+      "contentHash": "c8a9f1ce5e432e975c1d53f69719d5cfaa18d3750f7c1bd94e02f0bcae4861d7"
+    },
+    {
+      "type": "calculation",
+      "label": "现金利润比",
+      "entity": "格力电器",
+      "year": 2023,
+      "field": "cashConversion",
+      "value": 1.6071428571428572,
+      "unit": "倍",
+      "source": "确定性计算",
+      "sourceRecordId": "calc:000651.SZ:2023",
+      "publishedAt": "2024-04-20T00:00:00.000Z",
+      "retrievedAt": "2026-10-10T02:48:41.213Z",
+      "raw": {
+        "operatingCashflow": 45000000000,
+        "netProfit": 28000000000
+      },
+      "formula": "经营活动现金流净额 ÷ 归属于母公司股东的净利润",
+      "formulaKey": "cash_conversion",
+      "algorithmVersion": "1",
+      "inputIds": [
+        "e2-753e41d1073cad15fff449d19522713b975ec5cbe71f6456addb21caf1a2ee69",
+        "e2-119fd07c5bcd7048851a6fb56abc00dd066a346580e523a5fb82e21e501007d9"
+      ],
+      "mode": "demo",
+      "caveats": [
+        "比值受营运资本、季节性与业务结构影响，不能直接作为公司排名"
+      ],
+      "planVersion": 1,
+      "snapshotId": "src-1ba1dc50a7a48edc06dfe5042f05d2e0e7e5186d47da63a61533fd5dbc430ebb",
+      "snapshotHash": "1ba1dc50a7a48edc06dfe5042f05d2e0e7e5186d47da63a61533fd5dbc430ebb",
+      "id": "e2-d24a6075f43fc6c62898c36e72b0fe917eabd7bbf582eec97d2b034fb2908305",
+      "contentHash": "d24a6075f43fc6c62898c36e72b0fe917eabd7bbf582eec97d2b034fb2908305"
+    },
+    {
+      "type": "excerpt",
+      "label": "格力电器 · 现金流附注（构造）",
+      "entity": "000651.SZ",
+      "unit": "原文",
+      "source": "X Buddy 构造反证材料",
+      "sourceRecordId": "counter:000651.SZ:working-capital",
+      "publishedAt": "2025-04-20T00:00:00.000Z",
+      "retrievedAt": "2026-10-10T02:48:43.516Z",
+      "raw": "【构造样本，非实际财报】本期经营现金流变化包含营运资本回款时点的影响，不能仅凭年度现金利润比认定经营质量持续改善。",
+      "inputIds": [],
+      "mode": "demo",
+      "caveats": [
+        "检索到的材料不代表完整覆盖；未检索到反证不等于不存在反证"
+      ],
+      "locator": "正文字符 0–57",
+      "planVersion": 1,
+      "snapshotId": "src-59b6e7101eefa9bfe64f9fd46cd237cbe613c19e5fe9a605a2fa88e8ba619d06",
+      "snapshotHash": "59b6e7101eefa9bfe64f9fd46cd237cbe613c19e5fe9a605a2fa88e8ba619d06",
+      "id": "e2-dd812c526a149e93b2cce156730b3feb4ea1ac0e34c6f55c542c6a4edf4bb2d4",
+      "contentHash": "dd812c526a149e93b2cce156730b3feb4ea1ac0e34c6f55c542c6a4edf4bb2d4"
+    },
+    {
+      "type": "field",
+      "label": "经营现金流",
+      "entity": "美的集团",
+      "year": 2024,
+      "field": "operatingCashflow",
+      "value": 51000000000,
+      "unit": "CNY yuan",
+      "source": "X Buddy 构造财务样本（非真实财报）",
+      "sourceRecordId": "fixture:000333.SZ:2024",
+      "publishedAt": "2025-04-20T00:00:00.000Z",
+      "retrievedAt": "2026-10-10T02:48:38.156Z",
+      "raw": {
+        "code": "000333.SZ",
+        "name": "美的集团",
+        "year": 2024,
+        "period": "annual",
+        "currency": "CNY",
+        "unit": "yuan",
+        "revenue": 389000000000,
+        "netProfit": 34500000000,
+        "operatingCashflow": 51000000000,
+        "publishedAt": "2025-04-20T00:00:00.000Z",
+        "retrievedAt": "2026-10-10T02:48:38.156Z",
+        "source": "X Buddy 构造财务样本（非真实财报）",
+        "sourceRecordId": "fixture:000333.SZ:2024",
+        "mode": "demo"
+      },
+      "inputIds": [],
+      "mode": "demo",
+      "caveats": [],
+      "locator": "operatingCashflow",
+      "planVersion": 1,
+      "snapshotId": "src-ee12df641ca362196f81b2837e4002c9d2e06a09bdddb4f528bbaa66dfc9f728",
+      "snapshotHash": "ee12df641ca362196f81b2837e4002c9d2e06a09bdddb4f528bbaa66dfc9f728",
+      "id": "e2-e663e7a29d4658112bd1608e9bdba6c1a01a00c6d27343b8da655d80d2e89c69",
+      "contentHash": "e663e7a29d4658112bd1608e9bdba6c1a01a00c6d27343b8da655d80d2e89c69"
+    },
+    {
+      "type": "field",
+      "label": "营业收入",
+      "entity": "美的集团",
+      "year": 2024,
+      "field": "revenue",
+      "value": 389000000000,
+      "unit": "CNY yuan",
+      "source": "X Buddy 构造财务样本（非真实财报）",
+      "sourceRecordId": "fixture:000333.SZ:2024",
+      "publishedAt": "2025-04-20T00:00:00.000Z",
+      "retrievedAt": "2026-10-10T02:48:38.156Z",
+      "raw": {
+        "code": "000333.SZ",
+        "name": "美的集团",
+        "year": 2024,
+        "period": "annual",
+        "currency": "CNY",
+        "unit": "yuan",
+        "revenue": 389000000000,
+        "netProfit": 34500000000,
+        "operatingCashflow": 51000000000,
+        "publishedAt": "2025-04-20T00:00:00.000Z",
+        "retrievedAt": "2026-10-10T02:48:38.156Z",
+        "source": "X Buddy 构造财务样本（非真实财报）",
+        "sourceRecordId": "fixture:000333.SZ:2024",
+        "mode": "demo"
+      },
+      "inputIds": [],
+      "mode": "demo",
+      "caveats": [],
+      "locator": "revenue",
+      "planVersion": 1,
+      "snapshotId": "src-ee12df641ca362196f81b2837e4002c9d2e06a09bdddb4f528bbaa66dfc9f728",
+      "snapshotHash": "ee12df641ca362196f81b2837e4002c9d2e06a09bdddb4f528bbaa66dfc9f728",
+      "id": "e2-ef1573f6b26e882b0b7556627320e72df45ca67649edae212aead0354de7ad16",
+      "contentHash": "ef1573f6b26e882b0b7556627320e72df45ca67649edae212aead0354de7ad16"
+    },
+    {
+      "type": "excerpt",
+      "label": "美的集团 · 新品活动（构造）",
+      "entity": "000333.SZ",
+      "unit": "原文",
+      "source": "X Buddy 构造无关材料",
+      "sourceRecordId": "counter:000333.SZ:unrelated",
+      "publishedAt": "2025-04-20T00:00:00.000Z",
+      "retrievedAt": "2026-10-10T02:48:42.751Z",
+      "raw": "【构造样本，非实际公告】本材料介绍新品发布活动，未提供当前研究问题所需的财务说明。",
+      "inputIds": [],
+      "mode": "demo",
+      "caveats": [
+        "检索到的材料不代表完整覆盖；未检索到反证不等于不存在反证"
+      ],
+      "locator": "正文字符 0–41",
+      "planVersion": 1,
+      "snapshotId": "src-88203654752624bf7c5903492eb6777dcf41178cf9bedeba76b6e2f3be8707ef",
+      "snapshotHash": "88203654752624bf7c5903492eb6777dcf41178cf9bedeba76b6e2f3be8707ef",
+      "id": "e2-f872ec2ab12fda7bcad9d487639495fd2c16ca1f0d4c56eb8eed7b329088599d",
+      "contentHash": "f872ec2ab12fda7bcad9d487639495fd2c16ca1f0d4c56eb8eed7b329088599d"
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "src-0ae29a7b27a13bce6fa7f7b6c581345957f241113195b4e33531ec7c1c42021e",
+      "projectId": "2e60c94f-1fea-4b83-a1d1-52a4d7cce3ef",
+      "hash": "0ae29a7b27a13bce6fa7f7b6c581345957f241113195b4e33531ec7c1c42021e",
+      "body": {
+        "operatingCashflow": 38000000000,
+        "netProfit": 29800000000
+      },
+      "capturedAt": "2026-10-10T02:48:41.213Z",
+      "source": "确定性计算",
+      "sourceRecordId": "calc:000651.SZ:2024",
+      "mode": "demo"
+    },
+    {
+      "id": "src-1ba1dc50a7a48edc06dfe5042f05d2e0e7e5186d47da63a61533fd5dbc430ebb",
+      "projectId": "2e60c94f-1fea-4b83-a1d1-52a4d7cce3ef",
+      "hash": "1ba1dc50a7a48edc06dfe5042f05d2e0e7e5186d47da63a61533fd5dbc430ebb",
+      "body": {
+        "operatingCashflow": 45000000000,
+        "netProfit": 28000000000
+      },
+      "capturedAt": "2026-10-10T02:48:41.213Z",
+      "source": "确定性计算",
+      "sourceRecordId": "calc:000651.SZ:2023",
+      "mode": "demo"
+    },
+    {
+      "id": "src-36c4106d0073c4cb775327e19a20e20653358f35428d8971e998b8945b34ade4",
+      "projectId": "2e60c94f-1fea-4b83-a1d1-52a4d7cce3ef",
+      "hash": "36c4106d0073c4cb775327e19a20e20653358f35428d8971e998b8945b34ade4",
+      "body": "【构造材料，非公司实际公告】本样本模拟以下研究局限：经营现金流可能受应收回款、存货和应付项目变化影响；业务结构与海外收入占比影响公司间可比性。当前年度数据不能单独证明变化是否持续，需要核查附注与季度数据。",
+      "capturedAt": "2026-10-10T02:48:39.695Z",
+      "source": "X Buddy 构造文本样本",
+      "sourceRecordId": "fixture:filing:000333.SZ",
+      "mode": "demo"
+    },
+    {
+      "id": "src-3e632a49a27b857c6fcd446a5aff08f0b94630667619ba1eb9ceead425df0341",
+      "projectId": "2e60c94f-1fea-4b83-a1d1-52a4d7cce3ef",
+      "hash": "3e632a49a27b857c6fcd446a5aff08f0b94630667619ba1eb9ceead425df0341",
+      "body": {
+        "current": 29800000000,
+        "prior": 28000000000
+      },
+      "capturedAt": "2026-10-10T02:48:41.213Z",
+      "source": "确定性计算",
+      "sourceRecordId": "calc:000651.SZ:netProfit:growth",
+      "mode": "demo"
+    },
+    {
+      "id": "src-4a86e22cd4000f73f9b575316c8e1b2c15f8a527b97a302bf675d7e1e37cecb3",
+      "projectId": "2e60c94f-1fea-4b83-a1d1-52a4d7cce3ef",
+      "hash": "4a86e22cd4000f73f9b575316c8e1b2c15f8a527b97a302bf675d7e1e37cecb3",
+      "body": {
+        "code": "000333.SZ",
+        "name": "美的集团",
+        "year": 2023,
+        "period": "annual",
+        "currency": "CNY",
+        "unit": "yuan",
+        "revenue": 350000000000,
+        "netProfit": 31000000000,
+        "operatingCashflow": 42000000000,
+        "publishedAt": "2024-04-20T00:00:00.000Z",
+        "retrievedAt": "2026-10-10T02:48:38.156Z",
+        "source": "X Buddy 构造财务样本（非真实财报）",
+        "sourceRecordId": "fixture:000333.SZ:2023",
+        "mode": "demo"
+      },
+      "capturedAt": "2026-10-10T02:48:38.156Z",
+      "source": "X Buddy 构造财务样本（非真实财报）",
+      "sourceRecordId": "fixture:000333.SZ:2023",
+      "mode": "demo"
+    },
+    {
+      "id": "src-546fa57e45ce04d32bf1552bb285c994f5acf0be75f301ca9464ef77e0ce1e96",
+      "projectId": "2e60c94f-1fea-4b83-a1d1-52a4d7cce3ef",
+      "hash": "546fa57e45ce04d32bf1552bb285c994f5acf0be75f301ca9464ef77e0ce1e96",
+      "body": {
+        "operatingCashflow": 42000000000,
+        "netProfit": 31000000000
+      },
+      "capturedAt": "2026-10-10T02:48:41.213Z",
+      "source": "确定性计算",
+      "sourceRecordId": "calc:000333.SZ:2023",
+      "mode": "demo"
+    },
+    {
+      "id": "src-59b6e7101eefa9bfe64f9fd46cd237cbe613c19e5fe9a605a2fa88e8ba619d06",
+      "projectId": "2e60c94f-1fea-4b83-a1d1-52a4d7cce3ef",
+      "hash": "59b6e7101eefa9bfe64f9fd46cd237cbe613c19e5fe9a605a2fa88e8ba619d06",
+      "body": "【构造样本，非实际财报】本期经营现金流变化包含营运资本回款时点的影响，不能仅凭年度现金利润比认定经营质量持续改善。",
+      "capturedAt": "2026-10-10T02:48:42.751Z",
+      "source": "X Buddy 构造反证材料",
+      "sourceRecordId": "counter:000333.SZ:working-capital",
+      "mode": "demo"
+    },
+    {
+      "id": "src-5a75b81b71564caa4611c870640bcc84f2fb84e4df3314de52e87c4afac4a8c0",
+      "projectId": "2e60c94f-1fea-4b83-a1d1-52a4d7cce3ef",
+      "hash": "5a75b81b71564caa4611c870640bcc84f2fb84e4df3314de52e87c4afac4a8c0",
+      "body": {
+        "code": "000651.SZ",
+        "name": "格力电器",
+        "year": 2024,
+        "period": "annual",
+        "currency": "CNY",
+        "unit": "yuan",
+        "revenue": 197000000000,
+        "netProfit": 29800000000,
+        "operatingCashflow": 38000000000,
+        "publishedAt": "2025-04-20T00:00:00.000Z",
+        "retrievedAt": "2026-10-10T02:48:38.908Z",
+        "source": "X Buddy 构造财务样本（非真实财报）",
+        "sourceRecordId": "fixture:000651.SZ:2024",
+        "mode": "demo"
+      },
+      "capturedAt": "2026-10-10T02:48:38.908Z",
+      "source": "X Buddy 构造财务样本（非真实财报）",
+      "sourceRecordId": "fixture:000651.SZ:2024",
+      "mode": "demo"
+    },
+    {
+      "id": "src-5fc0f2d056b43a8182d057a9beb5f51dbe88bfa9ff84d3dc5019d15a574816e4",
+      "projectId": "2e60c94f-1fea-4b83-a1d1-52a4d7cce3ef",
+      "hash": "5fc0f2d056b43a8182d057a9beb5f51dbe88bfa9ff84d3dc5019d15a574816e4",
+      "body": {
+        "current": 38000000000,
+        "prior": 45000000000
+      },
+      "capturedAt": "2026-10-10T02:48:41.213Z",
+      "source": "确定性计算",
+      "sourceRecordId": "calc:000651.SZ:operatingCashflow:growth",
+      "mode": "demo"
+    },
+    {
+      "id": "src-88203654752624bf7c5903492eb6777dcf41178cf9bedeba76b6e2f3be8707ef",
+      "projectId": "2e60c94f-1fea-4b83-a1d1-52a4d7cce3ef",
+      "hash": "88203654752624bf7c5903492eb6777dcf41178cf9bedeba76b6e2f3be8707ef",
+      "body": "【构造样本，非实际公告】本材料介绍新品发布活动，未提供当前研究问题所需的财务说明。",
+      "capturedAt": "2026-10-10T02:48:42.751Z",
+      "source": "X Buddy 构造无关材料",
+      "sourceRecordId": "counter:000333.SZ:unrelated",
+      "mode": "demo"
+    },
+    {
+      "id": "src-9ec039d68554cbcc0ac36a5966cf947a356c8d11299c1fdbdcbac28fe3fd1fc4",
+      "projectId": "2e60c94f-1fea-4b83-a1d1-52a4d7cce3ef",
+      "hash": "9ec039d68554cbcc0ac36a5966cf947a356c8d11299c1fdbdcbac28fe3fd1fc4",
+      "body": {
+        "current": 51000000000,
+        "prior": 42000000000
+      },
+      "capturedAt": "2026-10-10T02:48:41.213Z",
+      "source": "确定性计算",
+      "sourceRecordId": "calc:000333.SZ:operatingCashflow:growth",
+      "mode": "demo"
+    },
+    {
+      "id": "src-af9d42893ced3467225cc0c16753a4b6c714b11b550a8efb45f0f38f86230522",
+      "projectId": "2e60c94f-1fea-4b83-a1d1-52a4d7cce3ef",
+      "hash": "af9d42893ced3467225cc0c16753a4b6c714b11b550a8efb45f0f38f86230522",
+      "body": {
+        "code": "000651.SZ",
+        "name": "格力电器",
+        "year": 2023,
+        "period": "annual",
+        "currency": "CNY",
+        "unit": "yuan",
+        "revenue": 203000000000,
+        "netProfit": 28000000000,
+        "operatingCashflow": 45000000000,
+        "publishedAt": "2024-04-20T00:00:00.000Z",
+        "retrievedAt": "2026-10-10T02:48:38.908Z",
+        "source": "X Buddy 构造财务样本（非真实财报）",
+        "sourceRecordId": "fixture:000651.SZ:2023",
+        "mode": "demo"
+      },
+      "capturedAt": "2026-10-10T02:48:38.908Z",
+      "source": "X Buddy 构造财务样本（非真实财报）",
+      "sourceRecordId": "fixture:000651.SZ:2023",
+      "mode": "demo"
+    },
+    {
+      "id": "src-ca1df3f9f92831724b4cdc17e86f83daceeb6709bfc9f797f295759e88926946",
+      "projectId": "2e60c94f-1fea-4b83-a1d1-52a4d7cce3ef",
+      "hash": "ca1df3f9f92831724b4cdc17e86f83daceeb6709bfc9f797f295759e88926946",
+      "body": {
+        "current": 34500000000,
+        "prior": 31000000000
+      },
+      "capturedAt": "2026-10-10T02:48:41.213Z",
+      "source": "确定性计算",
+      "sourceRecordId": "calc:000333.SZ:netProfit:growth",
+      "mode": "demo"
+    },
+    {
+      "id": "src-dc72603977c6ece35ca90d59b4c334db713528e2e5faf5681604e27f87b84550",
+      "projectId": "2e60c94f-1fea-4b83-a1d1-52a4d7cce3ef",
+      "hash": "dc72603977c6ece35ca90d59b4c334db713528e2e5faf5681604e27f87b84550",
+      "body": {
+        "operatingCashflow": 51000000000,
+        "netProfit": 34500000000
+      },
+      "capturedAt": "2026-10-10T02:48:41.213Z",
+      "source": "确定性计算",
+      "sourceRecordId": "calc:000333.SZ:2024",
+      "mode": "demo"
+    },
+    {
+      "id": "src-ee12df641ca362196f81b2837e4002c9d2e06a09bdddb4f528bbaa66dfc9f728",
+      "projectId": "2e60c94f-1fea-4b83-a1d1-52a4d7cce3ef",
+      "hash": "ee12df641ca362196f81b2837e4002c9d2e06a09bdddb4f528bbaa66dfc9f728",
+      "body": {
+        "code": "000333.SZ",
+        "name": "美的集团",
+        "year": 2024,
+        "period": "annual",
+        "currency": "CNY",
+        "unit": "yuan",
+        "revenue": 389000000000,
+        "netProfit": 34500000000,
+        "operatingCashflow": 51000000000,
+        "publishedAt": "2025-04-20T00:00:00.000Z",
+        "retrievedAt": "2026-10-10T02:48:38.156Z",
+        "source": "X Buddy 构造财务样本（非真实财报）",
+        "sourceRecordId": "fixture:000333.SZ:2024",
+        "mode": "demo"
+      },
+      "capturedAt": "2026-10-10T02:48:38.156Z",
+      "source": "X Buddy 构造财务样本（非真实财报）",
+      "sourceRecordId": "fixture:000333.SZ:2024",
+      "mode": "demo"
+    }
+  ],
+  "manifest": {
+    "reportHash": "1f4ff6f7e31e28a684cf95f1190bc6d8ef5d8e9c961e76ad438c99c3266d640a",
+    "evidenceHash": "11a4422fd44ca122ffc72a56c290271cdc952a34ac5a60eae1a2dda636062e8b",
+    "snapshotsHash": "77982a42551f3fb0db481e81c9b8987666cbb23f4b8d16265d92b2ccaacc7d72",
+    "researchHash": "f625458ca47a802cf043a0faf9e2f9daace401034510424bc2d066e21b4bd941"
+  }
+}

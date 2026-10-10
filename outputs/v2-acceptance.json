@@ -1,0 +1,71 @@
+{
+  "version": "2.0.0",
+  "testedAt": "2026-10-10T02:52:44.288Z",
+  "items": [
+    {
+      "id": "authorization",
+      "scope": "current grant at every execution boundary",
+      "status": "passed"
+    },
+    {
+      "id": "request_ledger",
+      "scope": "atomic reservation, durable attempt and unknown cost",
+      "status": "passed"
+    },
+    {
+      "id": "dependencies_completion",
+      "scope": "required fields, refetch, registered criteria",
+      "status": "passed"
+    },
+    {
+      "id": "immutable_evidence",
+      "scope": "historical references and standalone verification",
+      "status": "passed"
+    },
+    {
+      "id": "counterevidence_revision",
+      "scope": "targeted material relations and narrower claim",
+      "status": "passed"
+    },
+    {
+      "id": "semantic_context_verification",
+      "scope": "user correction, real citations and honest checks",
+      "status": "passed"
+    }
+  ],
+  "regression": {
+    "tests": 47,
+    "passed": 47,
+    "failed": 0,
+    "skipped": 0
+  },
+  "build": "passed",
+  "mysql": {
+    "testedAt": "2026-10-10T02:49:47.256Z",
+    "status": "passed",
+    "version": "8.0.46"
+  },
+  "standaloneBundle": {
+    "valid": true,
+    "calculations": 8,
+    "evidenceRecords": 26,
+    "legacyRecords": 0,
+    "legacyCalculationsSkipped": 0,
+    "errors": [],
+    "scope": "校验数据完整性、引用与算式；不证明原始材料真实性或金融解释正确"
+  },
+  "browser": {
+    "status": "passed",
+    "a11yViolations": 0,
+    "mobileWidth": 390
+  },
+  "limitations": [
+    "Constructed demonstration data; no real provider credentials tested",
+    "iFinD gateway not connected",
+    "Docker Compose launch not tested on this host",
+    "No public URL or remote Git repository",
+    "One bounded round with up to two cash hypothesis checks",
+    "Semantic financial support remains reviewable, not proven"
+  ],
+  "originalBackup": "work/v2-backup/source-v1.zip; database copy stays local"
+}

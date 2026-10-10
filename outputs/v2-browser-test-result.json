@@ -1,0 +1,63 @@
+{
+  "testedAt": "2026-10-10T02:52:44.288Z",
+  "url": "http://127.0.0.1:3000",
+  "method": "agent-browser named isolated sessions",
+  "dataMode": "demo",
+  "modelMode": "demo",
+  "checks": {
+    "planEditInvalidatesConfirmation": true,
+    "newPlanVersionRequiresApproval": true,
+    "completionCriteriaEditable": true,
+    "metricAndGrowthClickable": true,
+    "calculationInputDrilldown": true,
+    "counterExcerptGrounded": true,
+    "claimRevisionVisible": true,
+    "twoFollowupsWithUserCorrection": true,
+    "explicitMemoryConfirmation": true,
+    "persistedProjectAndMemoryAfterReload": true,
+    "requestLedgerVisible": true
+  },
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "documentScrollWidth": 390
+    }
+  ],
+  "horizontalOverflow": false,
+  "observedJavaScriptErrors": 0,
+  "a11y": {
+    "scope": "desktop research report page",
+    "engine": "4.12.1",
+    "violations": 0,
+    "incomplete": 0
+  },
+  "video": {
+    "path": "v2-demo.webm",
+    "durationSeconds": 127.633,
+    "audio": false,
+    "scope": [
+      "plan edit and reapproval",
+      "research results",
+      "formula dependencies",
+      "counter source excerpt",
+      "claim revision",
+      "request ledger"
+    ]
+  },
+  "screenshots": [
+    "v2-preview-home.png",
+    "v2-preview-plan.png",
+    "v2-preview-research.png",
+    "v2-preview-evidence.png",
+    "v2-preview-counter-source.png",
+    "v2-preview-question.png",
+    "v2-preview-harness.png",
+    "v2-preview-mobile.png",
+    "v2-preview-mobile-top.png"
+  ]
+}

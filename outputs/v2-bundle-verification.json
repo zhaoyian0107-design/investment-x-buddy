@@ -1,0 +1,9 @@
+{
+  "valid": true,
+  "calculations": 8,
+  "evidenceRecords": 26,
+  "legacyRecords": 0,
+  "legacyCalculationsSkipped": 0,
+  "errors": [],
+  "scope": "校验数据完整性、引用与算式；不证明原始材料真实性或金融解释正确"
+}

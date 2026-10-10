@@ -14,6 +14,7 @@
     "check": "tsc --noEmit",
     "test:e2e": "tsx scripts/smoke.ts",
     "test:public": "tsx scripts/public-smoke.ts",
+    "test:public:resilience": "tsx scripts/public-resilience.mjs",
     "verify:bundle": "node scripts/verify-bundle.mjs",
     "test:mysql": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/test-mysql.ps1",
     "package:submission": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/package.ps1"

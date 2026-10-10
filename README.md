@@ -2,13 +2,17 @@
 
 一个能检查证据、保存状态并从中断处继续工作的个人投资研究工作台。
 
+**公网产品：[打开投资 X Buddy](https://investment-x-buddy-production-525b.up.railway.app/) · 无需登录即可创建独立研究空间。**
+
+源码：[GitHub 仓库](https://github.com/zhaoyian0107-design/investment-x-buddy)。使用明确标注的构造数据与规则演示；真实数据和模型需另行配置并验证。
+
 主场景：比较公司在可比年度报告期中的收入、归母净利润、经营现金流与现金利润比，保留支持证据、反证、局限和下一步研究问题。
 
 第二版已逐项完成六项改造：统一执行授权、独立调用账本、指标依赖与完成检查、不可变证据与复算导出、针对判断的反证与修订、语义上下文与真实验证状态。详细修改点、验收条件和证据见 [V2_ACCEPTANCE.md](docs/V2_ACCEPTANCE.md)。
 
 最终自动测试 **47/47 通过**；实际 MySQL 8.0 独立实例通过预算并发、迁移与完整主链路测试；示例证据包 **26 条证据、8 条算式**通过独立复算。原版源文件已备份，旧研究数据保留并撤销旧授权。
 
-**交付状态：本地可运行，支持 SQLite / MySQL。默认使用明确标注的构造数据和规则演示；真实模型和扶摇数据适配已实现，但真实账号调用需要本地配置有效凭据。源码仓库已创建：[investment-x-buddy](https://github.com/zhaoyian0107-design/investment-x-buddy)。Railway 应用与 MySQL 服务已创建，公网发布及验收进行中。**
+**交付状态：已部署至 Railway，HTTPS 产品与公开源码仓库均可访问。云端 Docker 构建和 MySQL 9.7.2 实际主链路、异常降级、审批边界及重启恢复通过验收。本地仍支持 SQLite / MySQL 8。真实模型和扶摇适配已实现，真实账号调用尚未验收。**
 
 ## 1. 立即启动
 
@@ -47,7 +51,7 @@ npm.cmd start
 
 ## 3. MySQL 部署
 
-笔试还需提供评审可实际操作的公网 URL 和源码仓库。Railway 上线配置已准备，实际发布与公网验收步骤见 [PUBLIC_DEPLOYMENT.md](docs/PUBLIC_DEPLOYMENT.md)。当前尚未取得公网 URL，完成上线后在此提供实际访问地址。
+已发布评审可实际操作的公网 URL 和源码仓库。云端 MySQL 使用内网连接及应用专用账号，未开放数据库公网端口。部署与验收步骤见 [PUBLIC_DEPLOYMENT.md](docs/PUBLIC_DEPLOYMENT.md)，实际结果见 [公网主链路](outputs/public-smoke-result.json)、[重启验收](outputs/public-restart-result.json)、[异常与恢复](outputs/public-resilience-result.json)。
 
 ### 使用已有 MySQL 8
 
@@ -89,7 +93,7 @@ docker compose logs --tail=100 app
 
 外部访问时设置 `APP_BIND=0.0.0.0`，配置访问口令 `APP_ACCESS_TOKEN`，使用 HTTPS 反向代理并设置 `COOKIE_SECURE=true`。`deploy/nginx.conf` 提供代理与 SSE 配置示例。正式多人产品还需要独立账号体系；当前以签名 Cookie 隔离研究空间。
 
-本机已经完成 MySQL 8.0 的独立实例实际测试。**此环境未安装 Docker，Compose 容器启动尚未在本机验证。**
+本机已经完成 MySQL 8.0 的独立实例实际测试；Railway 实际 Dockerfile 构建、容器运行和 MySQL 9.7.2 验收也已通过。**此电脑未安装 Docker，本机 Compose 容器编排仍未验证。**
 
 ## 4. 真实数据与模型
 
@@ -160,6 +164,13 @@ npm.cmd test
 npm.cmd run test:e2e
 # 示例证据包可脱离数据库独立复算，无需 API Key
 npm.cmd run verify:bundle -- outputs/v2-sample-bundle.json
+# 对已部署的公网服务执行验收（会创建独立验收研究）
+$env:PUBLIC_BASE_URL='https://investment-x-buddy-production-525b.up.railway.app'
+npm.cmd run test:public
+npm.cmd run test:public:resilience
+# 在平台重启应用并等待健康后，复用重启前的验收会话
+npm.cmd run test:public -- --resume
+npm.cmd run test:public:resilience -- --resume
 # 使用现有 MySQL 二进制启动隔离测试实例，不修改现有服务
 powershell -NoProfile -ExecutionPolicy Bypass -File scripts/test-mysql.ps1
 ```
@@ -167,6 +178,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts/test-mysql.ps1
 MySQL 不在默认路径时传入 `-MySqlBin '你的MySQL bin目录'`。测试实例只绑定本机动态端口，数据写在 `work/mysql-test-*`，结束后停止匹配该数据目录的测试进程。
 
 测试说明：[TESTING.md](docs/TESTING.md)。真实付费模型和真实数据账号尚未调用验证，不能把协议模拟测试当成供应商线上验收。
+
+公网服务使用 Railway 试用额度，评审期间需保留应用和数据库，留意余额及到期时间。电脑关机不会停止云端服务。
 
 ## 7. 边界与未做事项
 

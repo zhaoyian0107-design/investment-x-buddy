@@ -1,0 +1,61 @@
+{
+  "testedAt": "2026-10-10T02:48:44.564Z",
+  "base": "http://127.0.0.1:3000",
+  "dataMode": "demo",
+  "status": "completed",
+  "projectId": "2e60c94f-1fea-4b83-a1d1-52a4d7cce3ef",
+  "taskCount": 10,
+  "evidenceCount": 26,
+  "checkpointCount": 10,
+  "modelMode": "demo",
+  "completion": {
+    "executionFinished": true,
+    "outcome": "met",
+    "criteria": [
+      {
+        "id": "criterion-0",
+        "label": "所选指标的必需字段齐全",
+        "required": true,
+        "kind": "fields_complete",
+        "status": "met",
+        "reason": "所选指标的必需字段齐全"
+      },
+      {
+        "id": "criterion-1",
+        "label": "核心指标可回到原始字段与计算依赖",
+        "required": true,
+        "kind": "calculation_lineage",
+        "status": "met",
+        "reason": "已有计算的输入依赖可追溯"
+      },
+      {
+        "id": "criterion-2",
+        "label": "每条判断标明事实、归纳或假设",
+        "required": true,
+        "kind": "claims_typed",
+        "status": "met",
+        "reason": "事实、归纳与假设已分类"
+      },
+      {
+        "id": "criterion-3",
+        "label": "记录反证、数据缺口和继续研究问题",
+        "required": true,
+        "kind": "counterchecks",
+        "status": "met",
+        "reason": "已记录核心判断的核查范围与材料关系；不代表覆盖所有反证"
+      }
+    ],
+    "evaluatedAt": "2026-10-10T02:48:44.402Z"
+  },
+  "counterChecks": 2,
+  "claimRevisions": 1,
+  "bundle": {
+    "valid": true,
+    "calculations": 8,
+    "evidenceRecords": 26,
+    "legacyRecords": 0,
+    "legacyCalculationsSkipped": 0,
+    "errors": [],
+    "scope": "校验数据完整性、引用与算式；不证明原始材料真实性或金融解释正确"
+  }
+}

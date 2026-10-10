@@ -967,7 +967,7 @@ export function App() {
             <i className="dot green" />
             持久化研究空间
           </span>
-          <span>{boot?.config.database || '数据库连接中'} · X Buddy 1.0</span>
+          <span>{boot?.config.database || '数据库连接中'} · X Buddy 2.0</span>
         </footer>
       </div>
       {evidence && project && (

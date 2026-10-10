@@ -1,0 +1,27 @@
+{
+  "testedAt": "2026-10-10T11:49:04.481Z",
+  "base": "https://investment-x-buddy-production-525b.up.railway.app",
+  "health": {
+    "ok": true,
+    "database": "mysql",
+    "version": "2.0.0"
+  },
+  "phase": "after_restart",
+  "projectId": "c86a64b6-d924-400e-b94b-fc84e591ad68",
+  "checks": [
+    "health, version and database",
+    "same signed session after restart",
+    "project and evidence persistence",
+    "memory persistence",
+    "bundle verification"
+  ],
+  "verification": {
+    "valid": true,
+    "calculations": 8,
+    "evidenceRecords": 26,
+    "legacyRecords": 0,
+    "legacyCalculationsSkipped": 0,
+    "errors": [],
+    "scope": "校验数据完整性、引用与算式；不证明原始材料真实性或金融解释正确"
+  }
+}

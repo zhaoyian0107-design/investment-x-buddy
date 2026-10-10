@@ -68,8 +68,21 @@ if (resume) {
   const bundle = await first.request(`/projects/${project.id}/bundle`);
   const verification = verifyBundle(bundle);
   assert.equal(verification.valid, true);
-  checks.push('same signed session after restart', 'project and evidence persistence', 'memory persistence', 'bundle verification');
-  const result = { testedAt: new Date().toISOString(), base, health, phase: 'after_restart', projectId: project.id, checks, verification };
+  checks.push(
+    'same signed session after restart',
+    'project and evidence persistence',
+    'memory persistence',
+    'bundle verification',
+  );
+  const result = {
+    testedAt: new Date().toISOString(),
+    base,
+    health,
+    phase: 'after_restart',
+    projectId: project.id,
+    checks,
+    verification,
+  };
   writeFileSync('outputs/public-restart-result.json', JSON.stringify(result, null, 2));
   console.log(JSON.stringify(result, null, 2));
 } else {
@@ -81,9 +94,17 @@ if (resume) {
   for (const asset of assets) assert.equal((await fetch(`${base}${asset}`)).status, 200);
   checks.push('homepage and production assets');
   const bootstrap = await first.request('/bootstrap');
-  assert.equal(bootstrap.config.dataMode, 'demo', 'Initial public acceptance uses labelled demo data.');
+  assert.equal(
+    bootstrap.config.dataMode,
+    'demo',
+    'Initial public acceptance uses labelled demo data.',
+  );
   assert.equal(bootstrap.config.modelMode, 'demo');
-  const rejected = await first.request<Project>('/projects', { goal: '研究美的集团的经营质量' }, 201);
+  const rejected = await first.request<Project>(
+    '/projects',
+    { goal: '研究美的集团的经营质量' },
+    201,
+  );
   await first.request(`/projects/${rejected.id}/action`, { action: 'reject' });
   await first.request(`/projects/${rejected.id}/action`, { action: 'retry' }, 409);
   await first.request(`/projects/${rejected.id}/action`, { action: 'resume' }, 409);
@@ -96,7 +117,8 @@ if (resume) {
   const deadline = Date.now() + 120000;
   while (Date.now() < deadline) {
     done = await first.request<Project>(`/projects/${project.id}`);
-    if (['completed', 'partial', 'blocked', 'budget_exceeded', 'cancelled'].includes(done.status)) break;
+    if (['completed', 'partial', 'blocked', 'budget_exceeded', 'cancelled'].includes(done.status))
+      break;
     await new Promise((r) => setTimeout(r, 1000));
   }
   assert.equal(done?.status, 'completed');
@@ -106,7 +128,11 @@ if (resume) {
   assert.ok(done.claimRevisions?.length);
   assert.ok(done.counterChecks?.length);
   assert.ok(done.counterChecks.every((c) => c.status === 'checked'));
-  checks.push('plan approval and execution', 'completion checks and checkpoints', 'counterchecks and claim revisions');
+  checks.push(
+    'plan approval and execution',
+    'completion checks and checkpoints',
+    'counterchecks and claim revisions',
+  );
   const second = client();
   await login(second);
   await second.request('/bootstrap');
@@ -118,15 +144,39 @@ if (resume) {
   const verification = verifyBundle(bundle);
   assert.equal(verification.valid, true);
   checks.push('evidence retrieval and independent bundle verification');
-  const memory = await first.request('/memories', {
-    text: '公网验收偏好：优先核查经营现金流的原始字段', kind: 'preference', projectId: project.id,
-  }, 201);
+  const memory = await first.request(
+    '/memories',
+    {
+      text: '公网验收偏好：优先核查经营现金流的原始字段',
+      kind: 'preference',
+      projectId: project.id,
+    },
+    201,
+  );
   const secondBootstrap = await second.request('/bootstrap');
   assert.ok(!secondBootstrap.memories.some((m: any) => m.id === memory.id));
   checks.push('memory persistence and isolation');
   // This file holds only the test session and remains in the ignored local work folder.
-  writeFileSync(sessionFile, JSON.stringify({ base, cookie: first.cookie(), projectId: project.id, memoryId: memory.id, evidenceIds: done.evidence.map((e) => e.id).sort() }), { mode: 0o600 });
-  const result = { testedAt: new Date().toISOString(), base, health, phase: 'initial', projectId: project.id, checks, verification };
+  writeFileSync(
+    sessionFile,
+    JSON.stringify({
+      base,
+      cookie: first.cookie(),
+      projectId: project.id,
+      memoryId: memory.id,
+      evidenceIds: done.evidence.map((e) => e.id).sort(),
+    }),
+    { mode: 0o600 },
+  );
+  const result = {
+    testedAt: new Date().toISOString(),
+    base,
+    health,
+    phase: 'initial',
+    projectId: project.id,
+    checks,
+    verification,
+  };
   writeFileSync('outputs/public-smoke-result.json', JSON.stringify(result, null, 2));
   console.log(JSON.stringify(result, null, 2));
 }
